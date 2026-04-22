@@ -1,0 +1,101 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About Us",
+    "IMPORT": "Importing to Egypt",
+    "EXPORT": "Exporting from Egypt",
+    "PRODUCTS": "Egyptian Products",
+    "ORDER": "Place Your Order",
+    "CONTACT": "Contact Us"
+  },
+  "FOOTER": {
+    "DESC": "A global vision from the heart of Egypt, providing integrated logistics solutions.",
+    "COMPANY": "Company",
+    "ABOUT": "About Us",
+    "CONTACT": "Contact Us",
+    "SERVICES": "Services",
+    "IMPORT": "Import",
+    "EXPORT": "Export",
+    "MORE": "More",
+    "PRODUCTS": "Products",
+    "ORDER": "Order Now",
+    "RIGHTS": "All rights reserved © 2026 Around The World Trading Co."
+  },
+  "HERO": {
+  "TITLE": "We Move Your Trade",
+  "TITLE_ACCENT": "To Every Corner of the World",
+  "SUBTITLE": "Import and export of all food and industrial products with complete safety",
+  "START": "Get Started",
+  "CONTACT": "Contact Us"
+},
+"ABOUT": {
+  "SUBTITLE": "About Us",
+  "TITLE": "Your Trusted Partner in",
+  "TITLE_HIGHLIGHT": "International Trade",
+  "TITLE_SINCE": "Since 2006",
+  "TEXT1": "Around The World Trading Co. is your trusted partner led by Mr. Sherif El-Sadat. With over 20 years of experience, we rely on a strong global network built on transparency and fair trade.",
+  "TEXT2": "We provide high-efficiency import and export solutions that meet our clients' needs and help them succeed in global markets.",
+  "READ_MORE": "Read More",
+  "EXPERIENCE_NUM": "+20",
+  "EXPERIENCE_TEXT": "Years of Experience"
+},
+"STATS": {
+  "TITLE": "Key Statistics of",
+  "TITLE_HIGHLIGHT": "Around The World ",
+  "DESC": "We don't just make promises — we deliver tangible results that reflect our commitment to excellence in international trade.",
+  "MARKETS": "Foreign Markets",
+  "EXPORTS": "Annual Export Volume",
+  "PUNCTUALITY": "On-Time Delivery Rate"
+},
+"SERVICES": {
+  "TITLE": "Integrated International",
+  "TITLE_ACCENT": "Trade Services",
+  "IMPORT_TITLE": "Importing to the Egyptian Market",
+  "IMPORT_TEXT": "A strong international network providing the best products at competitive prices from around the world.",
+  "EXPORT_TITLE": "Exporting from Egypt",
+  "EXPORT_TEXT": "Professional export services by selecting the best Egyptian factories and ensuring the highest quality at the best price.",
+  "PRODUCTS_TITLE": "Everything You Need",
+  "PRODUCTS_TEXT": "A wide range of Egyptian products (electronics, food, raw materials) meeting the highest international standards.",
+  "DISCOVER": "Discover More"
+},
+"WHY": {
+  "TITLE": "Why Choose",
+  "TITLE_HIGHLIGHT": "Around The World?",
+  "Q1_TITLE": "Product Quality",
+  "Q1_TEXT": "We offer high-quality Egyptian products that precisely meet the expectations of global markets.",
+  "Q2_TITLE": "Competitive Prices",
+  "Q2_TEXT": "Products at competitive prices giving our clients a real advantage in local and international markets.",
+  "Q3_TITLE": "On-Time Delivery",
+  "Q3_TEXT": "Fast and accurate shipment delivery according to the agreed schedule with no delays.",
+  "Q4_TITLE": "Professional Team",
+  "Q4_TEXT": "Relying on experts with vast experience in international trade and logistics services.",
+  "Q5_TITLE": "Comprehensive Services",
+  "Q5_TEXT": "Preparing shipping documents and providing diverse shipping methods to suit every client's needs."
+},
+"ORDER": {
+  "TITLE": "Place Your",
+  "TITLE_ACCENT": "Order",
+  "NAME": "Name",
+  "EMAIL": "Email Address",
+  "WHATSAPP": "WhatsApp (with code)",
+  "COMPANY": "Company Name",
+  "WEBSITE": "Website",
+  "JOB": "Your Job Title",
+  "ADDRESS": "Company Address",
+  "DETAILS": "Order details here...",
+  "SUBMIT": "Send Request"
+},
+"CONTACT": {
+  "LABEL": "Have a question?",
+  "TITLE": "Contact",
+  "TITLE_GOLD": "Us",
+  "HQ_TITLE": "Headquarters",
+  "HQ_TEXT": "60 Hisham Labib St., off Mostafa El-Nahas, Nasr City, Cairo",
+  "CS_TITLE": "Customer Service Center",
+  "CS_TEXT": "65 Al-Quds Al-Sharif St., off Shehab St., Mohandessin, Giza",
+  "PHONE_TITLE": "Phone",
+  "FAX_TITLE": "Fax",
+  "WHATSAPP_TITLE": "WhatsApp",
+  "EMAIL_TITLE": "Email"
+}
+}

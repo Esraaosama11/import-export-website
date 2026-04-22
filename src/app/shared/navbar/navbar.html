@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm custom-navbar">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../../assets/images/logo.png" alt="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav flex-grow-1 justify-content-center mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active">{{ 'NAV.HOME' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about">{{ 'NAV.ABOUT' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/import-egypt">{{ 'NAV.IMPORT' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/export-egypt">{{ 'NAV.EXPORT' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/products">{{ 'NAV.PRODUCTS' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/order">{{ 'NAV.ORDER' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact">{{ 'NAV.CONTACT' | translate }}</a>
+                </li>
+            </ul>
+
+            <div class="lang-glass-dock ms-auto">
+                <button (click)="switchLang('ar')" [class.active]="currentLang === 'ar'" title="العربية">AR</button>
+                <button (click)="switchLang('en')" [class.active]="currentLang === 'en'" title="English">EN</button>
+                <button (click)="switchLang('fr')" [class.active]="currentLang === 'fr'" title="French">FR</button>
+                <button (click)="switchLang('es')" [class.active]="currentLang === 'es'" title="Spanish">ES</button>
+                <button (click)="switchLang('ru')" [class.active]="currentLang === 'ru'" title="Russian">RU</button>
+                <button (click)="switchLang('zh')" [class.active]="currentLang === 'zh'" title="Chinese">CH</button>
+            </div>
+        </div>
+    </div>
+</nav>
