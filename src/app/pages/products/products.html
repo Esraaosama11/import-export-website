@@ -1,1 +1,28 @@
-<p>products works!</p>
+<section class="mega-products">
+    <div class="container">
+        <div class="header">
+            <h2>دليل <span class="highlight">المنتجات المصرية</span></h2>
+            <p>نصدر لك جودة مصرية بمقاييس عالمية</p>
+        </div>
+
+        <nav class="tabs-nav">
+            <button (click)="setTab('agri')" [class.active]="activeTab === 'agri'">الزراعة والغذاء</button>
+            <button (click)="setTab('elec')" [class.active]="activeTab === 'elec'">الأجهزة الكهربائية</button>
+            <button (click)="setTab('build')" [class.active]="activeTab === 'build'">البناء والتشطيب</button>
+            <button (click)="setTab('textile')" [class.active]="activeTab === 'textile'">المنسوجات والجلود</button>
+            <button (click)="setTab('mix')" [class.active]="activeTab === 'mix'">صناعات متنوعة</button>
+        </nav>
+
+        <div class="products-grid fade-in">
+            <div class="product-card" *ngFor="let item of filteredProducts">
+                <div class="card-img">
+                    <img [src]="item.img" alt="{{item.name}}">
+                    <span class="sub-label">{{item.sub}}</span>
+                </div>
+                <div class="card-body">
+                    <h3>{{item.name}}</h3>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
