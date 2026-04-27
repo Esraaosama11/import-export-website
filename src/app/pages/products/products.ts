@@ -40,31 +40,46 @@ export class Products {
     { category: 'agri', sub: 'أعشاب', name: 'النعناع', img: 'assets/images/ع.jpg' },
     { category: 'agri', sub: 'بهارات', name: 'السمسم', img: 'assets/images/س.png' },
     { category: 'agri', sub: 'زيوت', name: 'الزيتون وزيت الزيتون', img: 'assets/images/ز.jpg' },
+    { category: 'agri', sub: 'املاح', name: 'الملح وانواعه', img: 'assets/images/ملح.jpg' },
+
 
     // --- الأجهزة الكهربائية ---
-    { category: 'elec', sub: 'تبريد', name: 'المراوح والتكييفات', img: 'assets/images/K.jpg' },
-    { category: 'elec', sub: 'أجهزة كبيرة', name: 'الغسالات والشاشات', img: 'assets/images/K.jpg' },
-    { category: 'elec', sub: 'مطبخ', name: 'الخلاطات والبوتجازات', img: 'assets/images/K.jpg' },
-    { category: 'elec', sub: 'أجهزة صغيرة', name: 'المكاوي والمكانس والسخانات', img: 'assets/images/K.jpg' },
+    { category: 'elec', sub: 'تبريد', name: 'المراوح والتكييفات', img: 'assets/images/ت.png' },
+    { category: 'elec', sub: 'أجهزة كبيرة', name: 'الغسالات والشاشات', img: 'assets/images/رر.png' },
+    { category: 'elec', sub: 'مطبخ', name: 'الخلاطات والبوتجازات', img: 'assets/images/دد.png' },
+    { category: 'elec', sub: 'أجهزة صغيرة', name: 'المكاوي والمكانس ', img: 'assets/images/للل.png' },
+    { category: 'elec', sub: 'أجهزة صغيرة', name: 'السخانات والشفاطات ', img: 'assets/images/صص.png' },
 
     // --- مواد البناء ---
-    { category: 'build', sub: 'رخام', name: 'الجرانيت والرخام والجبس', img: 'assets/images/K.jpg' },
-    { category: 'build', sub: 'تشطيب', name: 'السيراميك والبورسلين والزجاج', img: 'assets/images/K.jpg' },
-    { category: 'build', sub: 'معادن', name: 'الحديد والألومنيوم والأسلاك', img: 'assets/images/K.jpg' },
-    { category: 'build', sub: 'أخرى', name: 'الفحم والملح بأنواعه', img: 'assets/images/K.jpg' },
+    { category: 'build', sub: 'رخام', name: 'الجرانيت والرخام والجبس', img: 'assets/images/رخام.jpg' },
+    { category: 'build', sub: 'تشطيب', name: 'السيراميك والبورسلين والزجاج', img: 'assets/images/ثثث.png' },
+    { category: 'build', sub: 'معادن', name: 'الحديد والألومنيوم والأسلاك', img: 'assets/images/كك.png' },
+    { category: 'build', sub: 'أخرى', name: 'الفحم والطوب الحرارى', img: 'assets/images/ضضض.png' },
 
     // --- منسوجات وجلود ---
-    { category: 'textile', sub: 'ملابس', name: 'الملابس الجاهزة والبطاطين', img: 'assets/images/K.jpg' },
-    { category: 'textile', sub: 'جلود', name: 'الأحذية والحقائب والمحفظ', img: 'assets/images/K.jpg' },
-    { category: 'textile', sub: 'مفروشات', name: 'الستائر والسجاد والموكيت', img: 'assets/images/K.jpg' },
-    { category: 'textile', sub: 'طبي', name: 'القطن الطبي والشاش', img: 'assets/images/K.jpg' },
+    // ملابس
+    { category: 'textile', sub: 'ملابس', name: 'الملابس الجاهزة', img: 'assets/images/قق.png' },
+     { category: 'textile', sub: 'جلود', name: 'الحقائب', img: 'assets/images/شنط.jpg' },
+    { category: 'textile', sub: 'ملابس', name: 'البطاطين بكل أنواعها', img: 'assets/images/بطاطين.png' },
+        { category: 'textile', sub: 'جلود', name: 'المحافظ', img: 'assets/images/سسس.jpg' },
+    { category: 'textile', sub: 'ملابس', name: 'أغطية الرأس', img: 'assets/images/طرح.png' },
 
+    // جلود
+   
+    { category: 'textile', sub: 'جلود', name: 'الأحزمة', img: 'assets/images/احزمة.jpg' },
+    { category: 'textile', sub: 'جلود', name: 'الأحذية', img: 'assets/images/ههه.png' },
+
+    // طبي
+    { category: 'textile', sub: 'طبي', name: 'القطن الطبي', img: 'assets/images/قطن.png' },
+    { category: 'textile', sub: 'طبي', name: 'الشاش', img: 'assets/images/شاش.png' },
+    { category: 'textile', sub: 'طبي', name: 'أربطة الضغط', img: 'assets/images/ضغط.png' },
     // --- صناعات متنوعة ---
-    { category: 'mix', sub: 'كيماويات', name: 'البتروكيماويات والزيوت', img: 'assets/images/K.jpg' },
-    { category: 'mix', sub: 'نظافة', name: 'المنظفات وأدوات النظافة', img: 'assets/images/K.jpg' },
-    { category: 'mix', sub: 'مطبخ', name: 'أواني الطهي ومستلزمات المطبخ', img: 'assets/images/K.jpg' },
-    { category: 'mix', sub: 'بلاستيك', name: 'المنتجات البلاستيكية والكرتون', img: 'assets/images/K.jpg' },
-    { category: 'mix', sub: 'أثاث', name: 'الموبيليات والمنتجات اليدوية', img: 'assets/images/K.jpg' }
+    { category: 'mix', sub: 'كيماويات', name: 'البتروكيماويات والزيوت', img: 'assets/images/زززز.png' },
+    { category: 'mix', sub: 'نظافة', name: 'المنظفات وأدوات النظافة', img: 'assets/images/ثثثث.png' },
+        { category: 'mix', sub: 'أثاث', name: 'الموبيليات والاثاث', img: 'assets/images/شششششش.png' },
+    { category: 'mix', sub: 'مطبخ', name: 'أواني الطهي ومستلزمات المطبخ', img: 'assets/images/ففف.png' },
+    { category: 'mix', sub: 'بلاستيك', name: 'المنتجات البلاستيكية والكرتون', img: 'assets/images/fffff.png' },
+    { category: 'mix', sub: 'بلاستيك', name: 'المنتجات اليدوية والتراثية', img: 'assets/images/قققق.jpg' },
   ];
 
   get filteredProducts() {
