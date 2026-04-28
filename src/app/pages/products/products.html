@@ -1,39 +1,58 @@
 <section class="mega-products">
-    <div class="container">
-        <div class="header">
-            <h2>دليل <span class="highlight">المنتجات المصرية</span></h2>
-            <p class="header-desc">
-                بحكم التواجد القوي لشركة <strong>حول العالم للاستيراد والتصدير</strong> في السوق المصري، وبإمكانياتها الإدارية والمالية والفنية العالية، نستطيع توفير كافة المنتجات المصرية المطلوبة للتصدير إلى الأسواق العالمية، ومن أهمها:
-            </p>
-        </div>
+  <div class="container">
+    
+    <div class="header">
+      <h2>
+        {{ 'PRODUCTS.TITLE' | translate }}
+        <span class="highlight">{{ 'PRODUCTS.TITLE_HIGHLIGHT' | translate }}</span>
+      </h2>
 
-        <nav class="tabs-nav">
-            <button (click)="setTab('agri')" [class.active]="activeTab === 'agri'">الزراعة والغذاء</button>
-            <button (click)="setTab('elec')" [class.active]="activeTab === 'elec'">الأجهزة الكهربائية</button>
-            <button (click)="setTab('build')" [class.active]="activeTab === 'build'">البناء والتشطيب</button>
-            <button (click)="setTab('textile')" [class.active]="activeTab === 'textile'">المنسوجات والجلود</button>
-            <button (click)="setTab('mix')" [class.active]="activeTab === 'mix'">صناعات متنوعة</button>
-        </nav>
-
-        <div class="products-grid fade-in">
-            <div class="product-card" *ngFor="let item of filteredProducts">
-                <div class="card-img">
-                    <img [src]="item.img" alt="{{item.name}}">
-                    <span class="sub-label">{{item.sub}}</span>
-                </div>
-                <div class="card-body">
-                    <h3>{{item.name}}</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-note">
-            <div class="note-content">
-                <p>
-                    ينتظر فريق العمل في <strong>شركة حول العالم للاستيراد والتصدير</strong> من السادة العملاء إشارة الطلب فقط، من أجل البدء الفوري في إنجاز طلبياتهم من أي منتج من هذه المنتجات المذكورة أو غيرها، وفقاً لطلباتكم بكل دقة وإتقان، وبسعر تنافسي رائع، وفي وقت قياسي مهما كان حجم الطلبيات.
-                </p>
-                <div class="divider"></div>
-            </div>
-        </div>
+      <p class="header-desc" [innerHTML]="'PRODUCTS.DESC' | translate"></p>
     </div>
+
+    <nav class="tabs-nav">
+      <button (click)="setTab('agri')" [class.active]="activeTab === 'agri'">
+        {{ 'PRODUCTS.TAB_AGRI' | translate }}
+      </button>
+
+      <button (click)="setTab('elec')" [class.active]="activeTab === 'elec'">
+        {{ 'PRODUCTS.TAB_ELEC' | translate }}
+      </button>
+
+      <button (click)="setTab('build')" [class.active]="activeTab === 'build'">
+        {{ 'PRODUCTS.TAB_BUILD' | translate }}
+      </button>
+
+      <button (click)="setTab('textile')" [class.active]="activeTab === 'textile'">
+        {{ 'PRODUCTS.TAB_TEXTILE' | translate }}
+      </button>
+
+      <button (click)="setTab('mix')" [class.active]="activeTab === 'mix'">
+        {{ 'PRODUCTS.TAB_MIX' | translate }}
+      </button>
+    </nav>
+
+    <div class="products-grid fade-in">
+      <div class="product-card" *ngFor="let item of filteredProducts">
+        
+        <div class="card-img">
+          <img [src]="item.img" [alt]="item.name">
+<span class="sub-label">{{ item.sub | translate }}</span>
+        </div>
+
+        <div class="card-body">
+          <h3>{{ item.name | translate }}</h3>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-note">
+      <div class="note-content">
+        <p [innerHTML]="'PRODUCTS.FOOTER_NOTE' | translate"></p>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+  </div>
 </section>
