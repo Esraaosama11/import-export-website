@@ -18,9 +18,17 @@ export class Navbar {
     this.translate.use('ar');
   }
 
- switchLang(lang: string) {
+switchLang(lang: string) {
   this.currentLang = lang;
   this.translate.use(lang);
   document.documentElement.lang = lang;
+  document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';  
 }
+
+  closeNav() {
+    const navEl = document.getElementById('nav');
+    if (navEl && navEl.classList.contains('show')) {
+      navEl.classList.remove('show');
+    }
+  }
 }

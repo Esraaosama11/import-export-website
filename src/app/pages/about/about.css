@@ -8,34 +8,27 @@
     align-items: center;
     justify-content: center;
 }
-
 .text-blue {
     color: #1E3A5F !important;
 }
-
 .text-orange {
     color: #FF8C00 !important;
 }
-
 .bg-blue {
     background-color: #1E3A5F !important;
 }
-
 .bg-orange {
     background-color: #FF8C00 !important;
 }
-
  .about-image-stack {
     position: relative;
     padding-bottom: 50px;
 }
-
 .img-main {
     width: 90%;
     height: 450px;
     object-fit: cover;
 }
-
 .img-accent-box {
     position: absolute;
     bottom: 0;
@@ -45,7 +38,6 @@
     min-width: 200px;
     border-bottom: 5px solid #FF8C00;
 }
-
  .v-card {
     transition: 0.3s;
     border: none;
@@ -55,7 +47,6 @@
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
 }
-
 .icon-circle {
     width: 70px;
     height: 70px;
@@ -65,7 +56,6 @@
     justify-content: center;
     font-size: 28px;
 }
-
 .border-blue {
     border-right: 5px solid #1E3A5F !important;
 }
@@ -77,21 +67,16 @@
   background: #fdfdfd;
   overflow: hidden;
 }
-
-/* تأثير الكروت الزجاجي */
 .vision-box {
   background: white;
   border-radius: 20px;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
 }
-
 .vision-box:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 25px 50px rgba(0,0,0,0.1) !important;
 }
-
-/* الأيقونات العائمة */
 .icon-box-floating {
   width: 70px;
   height: 70px;
@@ -105,37 +90,29 @@
   right: 40px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
-
-/* خطوط الديكور */
 .decor-line {
   width: 50px;
   height: 5px;
   margin-top: 25px;
   border-radius: 10px;
 }
-
-/* حركة التداخل في الشاشات الكبيرة */
 @media (min-width: 992px) {
     .translate-up {
-        margin-top: 80px; /* ترحيل الكارت التاني لتحت شوية عشان يكسر التماثل */
+        margin-top: 80px;  
     }
     .border-right-custom { border-right: 8px solid var(--blue); }
     .border-left-custom { border-left: 8px solid var(--orange); }
 }
-
-/* الرابط المركزي (الدوائر النابضة) */
 .center-connector {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .center-connector .line {
     width: 2px;
     height: 100px;
     background: linear-gradient(var(--blue), var(--orange));
 }
-
 .dot {
     width: 15px;
     height: 15px;
@@ -149,23 +126,17 @@
 @keyframes pulseO { 0% { box-shadow: 0 0 0 0 rgba(255, 140, 0, 0.4); } 70% { box-shadow: 0 0 0 15px rgba(255, 140, 0, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 140, 0, 0); } }
 
 .leading-relaxed { line-height: 1.8; }
-/* =============================================
-   RESPONSIVE — TABLET (max-width: 991px)
-   ============================================= */
+ 
 @media (max-width: 991px) {
 
-  /* Hero */
   .about-hero {
     height: 350px;
-    background-attachment: scroll; /* fixed بيبوظ على موبايل */
+    background-attachment: scroll;
   }
-
-  /* Who We Are */
   .img-main {
     width: 100%;
     height: 320px;
   }
-
   .img-accent-box {
     padding: 20px;
     min-width: 160px;
@@ -174,19 +145,14 @@
   .img-accent-box .fs-1 {
     font-size: 2rem !important;
   }
-
-  /* Vision Section */
   .creative-vision .container {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
   }
 
-  /* الكارتين يجوا فوق بعض */
   .vision-box {
-    margin-bottom: 60px; /* مسافة للأيقونة العائمة */
+    margin-bottom: 60px; 
   }
-
-  /* الأيقونة العائمة تتعدل */
   .icon-box-floating {
     top: -30px;
     right: 20px;
@@ -194,13 +160,10 @@
     height: 60px;
     font-size: 24px;
   }
-
-  /* الكارت التاني مش محتاج margin-top على موبايل */
   .translate-up {
     margin-top: 0 !important;
   }
 
-  /* البوردر يبقى فوق بدل يمين/شمال */
   .border-right-custom {
     border-right: none !important;
     border-top: 8px solid #1E3A5F !important;
@@ -212,25 +175,17 @@
   }
 }
 
-/* =============================================
-   RESPONSIVE — MOBILE (max-width: 576px)
-   ============================================= */
 @media (max-width: 576px) {
-
-  /* Hero */
   .about-hero {
     height: 280px;
   }
 
   .about-hero h1 {
-    font-size: 1.6rem !important;
+      font-size: 28px !important;
   }
 
   .about-hero p {
-    font-size: 0.9rem;
-  }
-
-  /* Who We Are */
+font-size: 15px !important;  }
   .img-main {
     height: 240px;
   }
@@ -248,10 +203,10 @@
     font-size: 0.8rem;
   }
 
-  /* Vision */
   .vision-box {
     padding: 2rem 1.2rem !important;
     margin-bottom: 50px;
+    margin-left: 20px;
   }
 
   .vision-box h2 {
@@ -275,4 +230,17 @@
     height: 4px;
     margin-top: 16px;
   }
+}
+@media (max-width: 576px) {
+  .container-fluid {
+    padding-left: 0 !important;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .row {
+    margin-left: 0 !important;
+  }
+
 }

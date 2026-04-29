@@ -73,6 +73,8 @@
     "Q5_TEXT": "Preparation of shipping documents and provision of diverse shipping methods tailored to each client's needs."
   },
   "ORDER": {
+    "HERO_TITLE": "Order Now",
+    "HERO_SUBTITLE": "We are here to meet your business needs with full professionalism",
     "TITLE": "Place",
     "TITLE_ACCENT": "Your Order",
     "NAME": "Name",
@@ -86,7 +88,7 @@
     "SUBMIT": "Submit Order"
   },
   "CONTACT": {
-    "LABEL": "Have a question?",
+    "LABEL": "Do you have a question? We are here to help.",
     "TITLE": "Contact",
     "TITLE_GOLD": "Us",
     "HQ_TITLE": "Headquarters",
@@ -181,5 +183,22 @@
       "PLASTIC": "Plastic & Carton Products",
       "HANDMADE": "Handmade & Heritage Products"
     }
+  },
+  "ABOUT_PAGE": {
+    "BREADCRUMB_CURRENT": "About Our Company",
+    "HERO_TITLE": "Imdad Import & Export",
+    "HERO_SUBTITLE": "Twenty years of expertise, trust renewed every day",
+    "WHO_TITLE": "Who We Are",
+    "WHO_HEADING": "Leading the World of International Trade",
+    "WHO_TEXT1": "Since its establishment in 2006, <strong>Imdad</strong> has proven itself as a trusted name in both the Egyptian and international markets. We don't start from scratch — we build on a successful professional track record and an ambitious vision aimed at delivering a world-class model in global trade.",
+    "WHO_PARTNERS_TITLE": "Our Successful International Partnerships:",
+    "WHO_PARTNER1": "Hamdan Trading Group (Egypt) — since 2006",
+    "WHO_PARTNER2": "Changzhou Hamdan International (China) — since 2007",
+    "WHO_PARTNER3": "Erwa Emlak (Turkey) — since 2018",
+    "WHO_TEXT2": "The company is distinguished by a strong international network, accumulated expertise, and in-depth knowledge of import and export markets — earning the trust of partners across many countries.",
+    "VALUES_TITLE": "Our Core Values",
+    "VALUES_TEXT": "We operate according to the principles of <strong>fair trade</strong>, with full commitment to transparency and cooperation to achieve mutual success — placing client satisfaction and providing the best products at the top of our priorities.",
+    "GOAL_TITLE": "Our Ambitious Goal",
+    "GOAL_TEXT": "To be the <strong>trusted partner</strong> that guarantees highly efficient services and facilitates the flow of trade between local and global markets with seamless professionalism."
   }
 }

@@ -10,26 +10,24 @@
   <div class="container content-wrapper">
     <div class="row min-vh-100 align-items-center justify-content-center">
       <div class="col-lg-10 text-center">
-
         <div class="reveal-text">
-          <h3 class="hero-title">{{ 'HERO.TITLE' | translate }} <span class="accent-color">{{ 'HERO.TITLE_ACCENT' |
-              translate }}</span></h3>
+          <h3 class="hero-title">{{ 'HERO.TITLE' | translate }} <span class="accent-color">{{ 'HERO.TITLE_ACCENT' | translate }}</span></h3>
           <p class="hero-subtitle">{{ 'HERO.SUBTITLE' | translate }}</p>
 
           <div class="btn-group-custom">
-            <button class="btn-primary-glow">{{ 'HERO.START' | translate }}</button>
-            <button class="btn-glass">{{ 'HERO.CONTACT' | translate }}</button>
+            <button class="btn-primary-glow" routerLink="/order">{{ 'HERO.START' | translate }}</button>
+            <button class="btn-glass" routerLink="/contact">{{ 'HERO.CONTACT' | translate }}</button>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 </section>
+
 <section class="about-creative py-5">
   <div class="container">
     <div class="row align-items-center">
-      
+
       <div class="col-lg-6 order-2 order-lg-1">
         <div class="creative-img-stack">
           <div class="img-main-frame" data-aos="fade-right">
@@ -41,7 +39,7 @@
           <div class="floating-exp">
             <div class="exp-circle">
               <span class="num">+20</span>
-              <span class="lab">عام من الخبرة</span>
+              <span class="lab">{{ 'ABOUT.EXPERIENCE_TEXT' | translate }}</span>
             </div>
           </div>
         </div>
@@ -49,19 +47,20 @@
 
       <div class="col-lg-6 order-1 order-lg-2 px-lg-5">
         <div class="about-info-wrapper">
-          <div class="text-bg-shape"></div> <h6 class="about-mini-title">{{ 'ABOUT.SUBTITLE' | translate }}</h6>
+          <div class="text-bg-shape"></div>
+          <h6 class="about-mini-title">{{ 'ABOUT.SUBTITLE' | translate }}</h6>
           <h2 class="about-main-header">
-            {{ 'ABOUT.TITLE' | translate }} 
+            {{ 'ABOUT.TITLE' | translate }}
             <span class="custom-highlight">{{ 'ABOUT.TITLE_HIGHLIGHT' | translate }}</span>
           </h2>
-          
+
           <div class="about-description">
             <p class="p-lead">{{ 'ABOUT.TEXT1' | translate }}</p>
             <p class="p-sub">{{ 'ABOUT.TEXT2' | translate }}</p>
           </div>
 
           <div class="about-action">
-            <button class="btn-creative-gold">
+            <button class="btn-creative-gold" routerLink="/about">
               <span>{{ 'ABOUT.READ_MORE' | translate }}</span>
               <i class="fas fa-long-arrow-alt-left"></i>
             </button>
@@ -72,9 +71,9 @@
     </div>
   </div>
 </section>
+
 <section class="stats-section">
   <div class="stats-bg-image" style="background-image: url('../../../assets/images/6.jpg');"></div>
-
   <div class="stats-bg-overlay"></div>
 
   <div class="container position-relative z-index-10">
@@ -82,8 +81,7 @@
 
       <div class="col-lg-5 mb-5 mb-lg-0">
         <div class="stats-head-content">
-          <h2 class="stats-title">{{ 'STATS.TITLE' | translate }} <br> <span class="highlight">{{
-              'STATS.TITLE_HIGHLIGHT' | translate }}</span></h2>
+          <h2 class="stats-title">{{ 'STATS.TITLE' | translate }} <br> <span class="highlight">{{ 'STATS.TITLE_HIGHLIGHT' | translate }}</span></h2>
           <p class="stats-desc">{{ 'STATS.DESC' | translate }}</p>
           <div class="separator"></div>
         </div>
@@ -91,40 +89,38 @@
 
       <div class="col-lg-7">
         <div class="stats-grid">
-
           <div class="stat-card">
             <div class="stat-icon"><i class="fas fa-globe-americas"></i></div>
             <h3 class="stat-number">+<span class="counter">50</span></h3>
             <p class="stat-label">{{ 'STATS.MARKETS' | translate }}</p>
           </div>
-
           <div class="stat-card">
             <div class="stat-icon"><i class="fas fa-boxes"></i></div>
             <h3 class="stat-number"><span class="counter">8450</span></h3>
             <p class="stat-label">{{ 'STATS.EXPORTS' | translate }}</p>
           </div>
-
           <div class="stat-card highlight-card">
             <div class="stat-icon"><i class="fas fa-clock"></i></div>
             <h3 class="stat-number"><span class="counter">97</span>%</h3>
             <p class="stat-label">{{ 'STATS.PUNCTUALITY' | translate }}</p>
           </div>
-
         </div>
       </div>
 
     </div>
   </div>
 </section>
+
 <section class="services-modern py-5">
   <div class="container">
     <div class="header-wrap text-center mb-5">
-      <h2 class="modern-title">{{ 'SERVICES.TITLE' | translate }} <span class="text-accent">{{ 'SERVICES.TITLE_ACCENT' |
-          translate }}</span></h2>
+      <h2 class="modern-title">{{ 'SERVICES.TITLE' | translate }} <span class="text-accent">{{ 'SERVICES.TITLE_ACCENT' | translate }}</span></h2>
       <div class="fancy-line"></div>
     </div>
 
     <div class="modern-grid">
+
+      <!-- الاستيراد -->
       <div class="modern-card">
         <div class="card-image">
           <img src="assets/images/13.png" alt="الاستيراد">
@@ -133,11 +129,12 @@
           <div class="content-body">
             <h3 class="item-title">{{ 'SERVICES.IMPORT_TITLE' | translate }}</h3>
             <p class="item-text">{{ 'SERVICES.IMPORT_TEXT' | translate }}</p>
-            <a href="#" class="modern-link">{{ 'SERVICES.DISCOVER' | translate }} <i class="fas fa-arrow-left"></i></a>
+            <a routerLink="/import-egypt" class="modern-link">{{ 'SERVICES.DISCOVER' | translate }} <i class="fas fa-arrow-left"></i></a>
           </div>
         </div>
       </div>
 
+      <!-- التصدير -->
       <div class="modern-card">
         <div class="card-image">
           <img src="assets/images/9.jpg" alt="التصدير">
@@ -146,11 +143,12 @@
           <div class="content-body">
             <h3 class="item-title">{{ 'SERVICES.EXPORT_TITLE' | translate }}</h3>
             <p class="item-text">{{ 'SERVICES.EXPORT_TEXT' | translate }}</p>
-            <a href="#" class="modern-link">{{ 'SERVICES.DISCOVER' | translate }} <i class="fas fa-arrow-left"></i></a>
+            <a routerLink="/export-egypt" class="modern-link">{{ 'SERVICES.DISCOVER' | translate }} <i class="fas fa-arrow-left"></i></a>
           </div>
         </div>
       </div>
 
+      <!-- المنتجات -->
       <div class="modern-card">
         <div class="card-image">
           <img src="assets/images/11.png" alt="المنتجات">
@@ -159,10 +157,11 @@
           <div class="content-body">
             <h3 class="item-title">{{ 'SERVICES.PRODUCTS_TITLE' | translate }}</h3>
             <p class="item-text">{{ 'SERVICES.PRODUCTS_TEXT' | translate }}</p>
-            <a href="#" class="modern-link">{{ 'SERVICES.DISCOVER' | translate }} <i class="fas fa-arrow-left"></i></a>
+            <a routerLink="/products" class="modern-link">{{ 'SERVICES.DISCOVER' | translate }} <i class="fas fa-arrow-left"></i></a>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -170,8 +169,7 @@
 <section class="why-choose-us">
   <div class="container">
     <div class="section-intro">
-      <h2 class="main-title">{{ 'WHY.TITLE' | translate }} <span class="highlight">{{ 'WHY.TITLE_HIGHLIGHT' | translate
-          }}</span></h2>
+      <h2 class="main-title">{{ 'WHY.TITLE' | translate }} <span class="highlight">{{ 'WHY.TITLE_HIGHLIGHT' | translate }}</span></h2>
       <div class="fancy-line"></div>
     </div>
 
@@ -223,6 +221,7 @@
     </div>
   </div>
 </section>
+
 <section class="creative-mini-request">
   <div class="container">
     <div class="request-box-wrapper">
@@ -265,7 +264,7 @@
           <textarea [placeholder]="'ORDER.DETAILS' | translate" rows="2"></textarea>
         </div>
 
-        <button type="submit" class="btn-send-creative">
+        <button type="submit" class="btn-send-creative" routerLink="/order">
           <span>{{ 'ORDER.SUBMIT' | translate }}</span>
           <div class="circle-icon"><i class="fas fa-paper-plane"></i></div>
         </button>

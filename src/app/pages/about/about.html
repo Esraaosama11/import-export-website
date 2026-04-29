@@ -1,97 +1,151 @@
 <section class="about-page" dir="rtl">
- <header class="about-hero d-flex align-items-center justify-content-center text-center" 
-          style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../assets/images/ننننننننن.jpg');">
+
+  <header class="about-hero d-flex align-items-center justify-content-center text-center" 
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../assets/images/ننننننننن.jpg');">
     
-    <div class="container position-relative z-1">
+    <div class="container-fluid px-3 position-relative z-1">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb justify-content-center">
-          <li class="breadcrumb-item active text-white" aria-current="page">عن الشركة</li>
-          <li class="breadcrumb-item"><a routerLink="/" class="text-white-50 text-decoration-none">الرئيسية</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">
+            {{ 'ABOUT_PAGE.BREADCRUMB_CURRENT' | translate }}/
+          </li>
+          <!-- <li class="breadcrumb-item">
+            <a routerLink="/" class="text-white-50 text-decoration-none">
+              {{ 'ABOUT_PAGE.BREADCRUMB_HOME' | translate }}
+            </a>
+          </li> -->
         </ol>
       </nav>
-      <h1 class="display-4 fw-bold text-white mt-3">الامداد للاستيراد والتصدير</h1>
-      <p class="text-white">خبرة تمتد لعشرين عاماً، وثقة تتجدد كل يوم</p>
+
+      <h1 class="display-4 fw-bold text-white mt-3">
+        {{ 'ABOUT_PAGE.HERO_TITLE' | translate }}
+      </h1>
+      <p  class="lead text-white fs-4 fw-light">
+        {{ 'ABOUT_PAGE.HERO_SUBTITLE' | translate }}
+      </p>
     </div>
+
   </header>
 
   <!-- Who We Are Section -->
   <section class="py-5 section-who-we-are">
-    <div class="container py-lg-5 text-end">
+    <div class="container-fluid px-3 px-lg-5 py-lg-5 text-end">
+
       <div class="row align-items-center g-5">
+
         <div class="col-lg-6 order-lg-2">
           <div class="about-image-stack">
-            <img src="../../../assets/images/lll.png" alt="تجارة دولية" class="img-main rounded-4 shadow">
+            <img src="../../../assets/images/lll.png" alt="تجارة دولية"
+              class="img-main rounded-4 shadow">
+
             <div class="img-accent-box shadow-lg rounded-4">
               <span class="fs-1 fw-bold text-white">+20</span>
-              <p class="m-0 text-white-50">عاماً من الخبرة</p>
+              <p class="m-0 text-white-50">{{ 'ABOUT.EXPERIENCE_TEXT' | translate }}</p>
             </div>
           </div>
         </div>
+
         <div class="col-lg-6 order-lg-1">
-          <h6 class="text-orange text-uppercase fw-bold mb-2">من نحن</h6>
-          <h2 class="display-5 fw-bold text-blue mb-4">ريادة في عالم التجارة الدولية</h2>
-          <p class="lead text-secondary mb-4">
-            منذ انطلاقها في عام 2006، أثبتت شركة <strong> امداد</strong> مكانتها كاسم موثوق في السوق المصري والدولي. نحن لا نبدأ من الصفر، بل نستند إلى مسيرة مهنية ناجحة ورؤية طموحة تهدف إلى تقديم نموذج احترافي في التجارة العالمية.
+          <h6 class="text-orange text-uppercase fw-bold mb-2">
+            {{ 'ABOUT_PAGE.WHO_TITLE' | translate }}
+          </h6>
+
+          <h2 class="display-5 fw-bold text-blue mb-4">
+            {{ 'ABOUT_PAGE.WHO_HEADING' | translate }}
+          </h2>
+
+          <p class="lead text-secondary mb-4"
+            [innerHTML]="'ABOUT_PAGE.WHO_TEXT1' | translate">
           </p>
-          
-          <h5 class="fw-bold text-blue mb-3">شراكاتنا الدولية الناجحة:</h5>
+
+          <h5 class="fw-bold text-blue mb-3">
+            {{ 'ABOUT_PAGE.WHO_PARTNERS_TITLE' | translate }}
+          </h5>
+
           <ul class="list-unstyled mb-4">
-             <li class="mb-2"><i class="fas fa-check-circle text-blue ms-2"></i> مجموعة حمدان التجارية (مصر) منذ 2006</li>
-             <li class="mb-2"><i class="fas fa-check-circle text-blue ms-2"></i> شركة شانجزو حمدان إنترناشيونال (الصين) منذ 2007</li>
-             <li class="mb-2"><i class="fas fa-check-circle text-blue ms-2"></i> إروا إملاك (تركيا) منذ 2018</li>
+            <li class="mb-2">
+              <i class="fas fa-check-circle text-blue ms-2"></i>
+              {{ 'ABOUT_PAGE.WHO_PARTNER1' | translate }}
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-check-circle text-blue ms-2"></i>
+              {{ 'ABOUT_PAGE.WHO_PARTNER2' | translate }}
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-check-circle text-blue ms-2"></i>
+              {{ 'ABOUT_PAGE.WHO_PARTNER3' | translate }}
+            </li>
           </ul>
 
           <p class="text-secondary">
-            تتميز الشركة بشبكة علاقات دولية قوية، وخبرة متراكمة، ومعرفة دقيقة بأسواق الاستيراد والتصدير، مما أكسبها ثقة شركائها في العديد من الدول.
+            {{ 'ABOUT_PAGE.WHO_TEXT2' | translate }}
           </p>
         </div>
+
       </div>
+
     </div>
   </section>
 
   <!-- Vision Section -->
-<section class="creative-vision py-5" dir="rtl">
-  <div class="container py-5">
-    <div class="row align-items-center g-0">
-      
-      <!-- الكارت الأول: القيم -->
-      <div class="col-lg-5 position-relative z-2">
-        <div class="vision-box glass-effect p-5 shadow-lg border-right-custom">
-          <div class="icon-box-floating bg-blue">
-            <i class="fas fa-shield-alt text-white"></i>
-          </div>
-          <h2 class="fw-bold text-blue mb-4">قيمنا الراسخة</h2>
-          <p class="text-secondary leading-relaxed">
-            نعمل وفق مبادئ **التجارة العادلة**، مع التزام كامل بالشفافية والتعاون لتحقيق النجاح المشترك، واضعين رضا العملاء وتوفير أفضل المنتجات في مقدمة أولوياتنا.
-          </p>
-          <div class="decor-line bg-blue"></div>
-        </div>
-      </div>
+  <section class="creative-vision pt-3 pb-5" dir="rtl">
 
-      <!-- الكارت الوسطي: الرابط البصري (اختياري للصورة أو الأيقونة الكبيرة) -->
-      <div class="col-lg-2 d-none d-lg-flex justify-content-center z-1">
+  <div class="container-fluid px-3 px-lg-5 py-3">
+      <div class="row align-items-center g-0">
+
+        <!-- القيم -->
+        <div class="col-lg-5 position-relative z-2">
+          <div class="vision-box glass-effect p-5 shadow-lg border-right-custom">
+
+            <div class="icon-box-floating bg-blue">
+              <i class="fas fa-shield-alt text-white"></i>
+            </div>
+
+            <h2 class="fw-bold text-blue mb-4">
+              {{ 'ABOUT_PAGE.VALUES_TITLE' | translate }}
+            </h2>
+
+            <p class="text-secondary leading-relaxed"
+              [innerHTML]="'ABOUT_PAGE.VALUES_TEXT' | translate">
+            </p>
+
+            <div class="decor-line bg-blue"></div>
+          </div>
+        </div>
+
+        <!-- الوسط -->
+        <div class="col-lg-2 d-none d-lg-flex justify-content-center z-1">
           <div class="center-connector">
-              <div class="dot pulse-blue"></div>
-              <div class="line"></div>
-              <div class="dot pulse-orange"></div>
+            <div class="dot pulse-blue"></div>
+            <div class="line"></div>
+            <div class="dot pulse-orange"></div>
           </div>
-      </div>
-
-      <!-- الكارت الثاني: الهدف -->
-      <div class="col-lg-5 position-relative z-2 mt-5 mt-lg-0">
-        <div class="vision-box glass-effect p-5 shadow-lg border-left-custom translate-up">
-          <div class="icon-box-floating bg-orange">
-            <i class="fas fa-rocket text-white"></i>
-          </div>
-          <h2 class="fw-bold text-orange mb-4">هدفنا الطموح</h2>
-          <p class="text-secondary leading-relaxed">
-            أن نكون **الشريك الموثوق** الذي يضمن تقديم خدمات عالية الكفاءة ويسهل حركة التجارة بين الأسواق المحلية والعالمية بكل سلاسة واحترافية.
-          </p>
-          <div class="decor-line bg-orange"></div>
         </div>
+
+        <!-- الهدف -->
+        <div class="col-lg-5 position-relative z-2 mt-5 mt-lg-0">
+          <div class="vision-box glass-effect p-5 shadow-lg border-left-custom translate-up">
+
+            <div class="icon-box-floating bg-orange">
+              <i class="fas fa-rocket text-white"></i>
+            </div>
+
+            <h2 class="fw-bold text-orange mb-4">
+              {{ 'ABOUT_PAGE.GOAL_TITLE' | translate }}
+            </h2>
+
+            <p class="text-secondary leading-relaxed"
+              [innerHTML]="'ABOUT_PAGE.GOAL_TEXT' | translate">
+            </p>
+
+            <div class="decor-line bg-orange"></div>
+          </div>
+        </div>
+
       </div>
 
     </div>
-  </div>
-</section>
+
+  </section>
+
 </section>

@@ -9,39 +9,39 @@
         </button>
 
         <div class="collapse navbar-collapse" id="nav">
-           <ul class="navbar-nav flex-grow-1 justify-content-center mb-2 mb-lg-0">
+        <ul class="navbar-nav flex-grow-1 justify-content-center mb-2 mb-lg-0">
     <li class="nav-item">
-         <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeNav()">
             {{ 'NAV.HOME' | translate }}
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" routerLink="/about" routerLinkActive="active">{{ 'NAV.ABOUT' | translate }}</a>
+        <a class="nav-link" routerLink="/about" routerLinkActive="active" (click)="closeNav()">{{ 'NAV.ABOUT' | translate }}</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" routerLink="/import-egypt" routerLinkActive="active">{{ 'NAV.IMPORT' | translate }}</a>
+        <a class="nav-link" routerLink="/import-egypt" routerLinkActive="active" (click)="closeNav()">{{ 'NAV.IMPORT' | translate }}</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" routerLink="/export-egypt" routerLinkActive="active">{{ 'NAV.EXPORT' | translate }}</a>
+        <a class="nav-link" routerLink="/export-egypt" routerLinkActive="active" (click)="closeNav()">{{ 'NAV.EXPORT' | translate }}</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" routerLink="/products" routerLinkActive="active">{{ 'NAV.PRODUCTS' | translate }}</a>
+        <a class="nav-link" routerLink="/products" routerLinkActive="active" (click)="closeNav()">{{ 'NAV.PRODUCTS' | translate }}</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" routerLink="/order" routerLinkActive="active">{{ 'NAV.ORDER' | translate }}</a>
+        <a class="nav-link" routerLink="/order" routerLinkActive="active" (click)="closeNav()">{{ 'NAV.ORDER' | translate }}</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" routerLink="/contact" routerLinkActive="active">{{ 'NAV.CONTACT' | translate }}</a>
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active" (click)="closeNav()">{{ 'NAV.CONTACT' | translate }}</a>
     </li>
 </ul>
 
             <div class="lang-glass-dock ms-auto">
-                <button (click)="switchLang('ar')" [class.active]="currentLang === 'ar'" title="العربية">AR</button>
-                <button (click)="switchLang('en')" [class.active]="currentLang === 'en'" title="English">EN</button>
-                <button (click)="switchLang('fr')" [class.active]="currentLang === 'fr'" title="French">FR</button>
-                <button (click)="switchLang('es')" [class.active]="currentLang === 'es'" title="Spanish">ES</button>
-                <button (click)="switchLang('ru')" [class.active]="currentLang === 'ru'" title="Russian">RU</button>
-                <button (click)="switchLang('zh')" [class.active]="currentLang === 'zh'" title="Chinese">CH</button>
+              <button (click)="switchLang('ar')" [class.active]="currentLang === 'ar'">AR</button>
+<button (click)="switchLang('en')" [class.active]="currentLang === 'en'">EN</button>
+<button (click)="switchLang('fr')" [class.active]="currentLang === 'fr'">FR</button>
+<button (click)="switchLang('es')" [class.active]="currentLang === 'es'">ES</button>
+<button (click)="switchLang('ru')" [class.active]="currentLang === 'ru'">RU</button>
+<button (click)="switchLang('ch')" [class.active]="currentLang === 'ch'">CH</button>
             </div>
         </div>
     </div>

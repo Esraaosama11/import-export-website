@@ -1205,3 +1205,19 @@ img {
 [dir="rtl"] .btn-creative-gold:hover i {
   transform: translateX(10px) rotate(180deg);
 }
+@media (max-width: 767px) {
+  .modern-card .card-inner-content {
+    bottom: 0 !important;
+  }
+
+  .modern-card .item-title,
+  .modern-card .item-text,
+  .modern-card .modern-link {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+
+  .modern-card {
+    height: 420px;
+  }
+}

@@ -1,13 +1,14 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [TranslateModule],
+  imports: [TranslateModule, RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
-export class Home implements OnInit , OnDestroy {
+export class Home implements OnInit, OnDestroy {
   currentSlide = 0;
   slideInterval: any;
 
@@ -18,7 +19,7 @@ export class Home implements OnInit , OnDestroy {
   startSlider() {
     this.slideInterval = setInterval(() => {
       this.nextSlide();
-    }, 2500);   
+    }, 2500);
   }
 
   nextSlide() {

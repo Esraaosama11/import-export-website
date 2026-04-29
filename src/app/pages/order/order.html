@@ -1,1 +1,49 @@
-<p>order works!</p>
+<header class="order-header-wrapper position-relative w-100">
+  <img src="../../../assets/images/اوردر.png" alt="اطلب الآن" class="header-img w-100">
+  
+ <div class="header-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+  <div class="container text-center">
+    <h3 class="display-4 fw-bold text-white mt-3">
+      {{ 'ORDER.HERO_TITLE' | translate }}
+    </h3>
+    <p class="lead text-white fs-4 fw-light">
+      {{ 'ORDER.HERO_SUBTITLE' | translate }}
+    </p>
+  </div>
+</div>
+</header>
+<section class="creative-mini-request position-relative">
+  <div class="container">
+    <div class="request-box-wrapper shadow-lg bg-white">
+      <div class="request-head text-center mb-4">
+        <h2 class="fw-bold text-blue">{{ 'ORDER.TITLE' | translate }} <span class="accent-line">{{ 'ORDER.TITLE_ACCENT' | translate }}</span></h2>
+      </div>
+      <form class="smart-grid-form px-lg-4">
+        <div class="input-row-triple mb-3">
+          <div class="input-field"><input type="text" [placeholder]="'ORDER.NAME' | translate" class="form-control" required></div>
+          <div class="input-field"><input type="email" [placeholder]="'ORDER.EMAIL' | translate" class="form-control" required></div>
+          <div class="input-field"><input type="tel" [placeholder]="'ORDER.WHATSAPP' | translate" class="form-control" required></div>
+        </div>
+
+        <div class="input-row-triple mb-3">
+          <div class="input-field"><input type="text" [placeholder]="'ORDER.COMPANY' | translate" class="form-control"></div>
+          <div class="input-field"><input type="url" [placeholder]="'ORDER.WEBSITE' | translate" class="form-control"></div>
+          <div class="input-field"><input type="text" [placeholder]="'ORDER.JOB' | translate" class="form-control"></div>
+        </div>
+
+        <div class="input-row-double mb-3">
+          <div class="input-field"><input type="text" [placeholder]="'ORDER.ADDRESS' | translate" class="form-control"></div>
+        </div>
+
+        <div class="input-field full-w mb-4">
+          <textarea [placeholder]="'ORDER.DETAILS' | translate" rows="4" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn-send-creative w-100">
+          <span>{{ 'ORDER.SUBMIT' | translate }}</span>
+          <div class="circle-icon"><i class="fas fa-paper-plane"></i></div>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
