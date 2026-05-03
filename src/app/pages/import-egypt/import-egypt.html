@@ -1,1 +1,208 @@
-<p>import-egypt works!</p>
+<div class="imdad-import-page" dir="rtl">
+ <section class="imdad-hero custom-hero-bg">
+  <div class="hero-overlay-refined"></div>
+  <div class="container hero-container-fixed">
+    <div class="hero-text-box">
+      <h1 class="imdad-title-refined">
+        حلول استيراد <span class="highlight-orange">متكاملة</span> للسوق المصري
+      </h1>
+      <p class="imdad-p-refined">
+        نحن نربطك بأفضل الموردين عالمياً، نتولى التفاوض، الفحص، والشحن لباب مخزنك بأعلى معايير الجودة.
+      </p>
+    </div>
+  </div>
+</section>
+
+ <section class="sec-services-creative py-5">
+  <div class="container">
+    <div class="imdad-sec-head text-center mb-5">
+      <span class="label-premium">إحنا بنعمل إيه؟</span>
+      <h2 class="title-with-line">خدماتنا <span class="text-orange">اللوجستية</span></h2>
+    </div>
+    <div class="services-grid-modern">
+      <div class="svc-card-premium" *ngFor="let s of importServices">
+        <div class="card-bg-decoration"></div>  
+        <div class="icon-floating">
+          <i [class]="s.icon"></i>
+        </div>
+        <div class="svc-content">
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.desc }}</p>
+        </div>
+        <div class="card-footer-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="imdad-process-steps py-100 bg-white">
+  <div class="container">
+        <div class="imdad-sec-head text-center mt-5 mb-5">
+      <span class="label-premium">طريقة العمل</span>
+      <h2 class="title-with-line">خطوات الاستيراد <span class="text-orange">معانا</span></h2>
+    </div>
+
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="creative-img-frame">
+          <img src="https://plus.unsplash.com/premium_photo-1682145409553-75a35479e3cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+               class="img-fluid main-img-styled" alt="خطوات عمل إمداد للخدمات اللوجستية">
+          <div class="decorative-outline"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="modern-steps-list">
+          <div class="step-card-row" *ngFor="let step of workSteps; let i = index">
+            <div class="indicator-area">
+              <div class="step-digit-box">0{{ i + 1 }}</div>
+              <div class="vertical-path" *ngIf="i !== workSteps.length - 1"></div>
+            </div>
+            <div class="step-content-box">
+              <p>{{ step }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="imdad-catalog-creative py-100" style="background-color: #f1f1f1;">
+  <div class="container">
+    
+    <div class="imdad-sec-head text-center mb-5">
+      <span class="label-premium">الكتالوج</span>
+      <h2 class="title-with-line">المنتجات اللي تقدر <span class="text-orange">تستوردها</span></h2>
+    </div>
+
+    <div class="products-grid-v2">
+      <!-- الكارت الكريتيف -->
+      <div class="premium-prod-card" *ngFor="let cat of productCatalog">
+        <div class="prod-visual">
+          <img [src]="cat.image" [alt]="cat.name" class="img-fluid">
+          <div class="prod-gradient-overlay"></div>
+          <div class="category-icon-badge">{{ cat.icon }}</div>
+        </div>
+        
+        <div class="prod-details">
+          <h3 class="prod-title">{{ cat.name }}</h3>
+          <div class="prod-tags-scroll">
+            <ul class="clean-tags-list">
+              <li *ngFor="let item of cat.items">
+                <span class="bullet"></span> {{ item }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- الخط السفلي الجمالي -->
+        <div class="card-bottom-line"></div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+<section class="sec-why-angled py-100 bg-white">
+  <div class="container">
+    
+    <!-- العنوان الموحد -->
+    <div class="imdad-sec-head text-center mb-5">
+      <span class="label-premium">مميزاتنا</span>
+      <h2 class="title-with-line">ليه تختار <span class="text-orange">"إمداد"؟</span></h2>
+    </div>
+
+    <div class="row g-5">
+      <!-- ميزة 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="angled-card">
+          <div class="bg-number">01</div>
+          <div class="card-inner">
+            <div class="icon-wrapper-angled">
+              <div class="hexagon-shape">
+                <i class="fas fa-history"></i>
+              </div>
+            </div>
+            <div class="card-text">
+              <h3>خبرة في السوق</h3>
+              <p>نمتلك باعاً طويلاً وفهماً عميقاً لتحديات واحتياجات السوق المحلي لضمان أفضل النتائج.</p>
+            </div>
+          </div>
+          <div class="corner-accent"></div>
+        </div>
+      </div>
+
+      <!-- ميزة 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="angled-card">
+          <div class="bg-number">02</div>
+          <div class="card-inner">
+            <div class="icon-wrapper-angled">
+              <div class="hexagon-shape">
+                <i class="fas fa-user-shield"></i>
+              </div>
+            </div>
+            <div class="card-text">
+              <h3>تقليل المخاطر</h3>
+              <p>نعمل كدرع واقي لاستثماراتك من خلال فحص الموردين وضمان جودة الشحنات بدقة.</p>
+            </div>
+          </div>
+          <div class="corner-accent"></div>
+        </div>
+      </div>
+
+      <!-- ميزة 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="angled-card">
+          <div class="bg-number">03</div>
+          <div class="card-inner">
+            <div class="icon-wrapper-angled">
+              <div class="hexagon-shape">
+                <i class="fas fa-search-dollar"></i>
+              </div>
+            </div>
+            <div class="card-text">
+              <h3>شفافية التكاليف</h3>
+              <p>نقدم تحليلاً دقيقاً وشاملاً لكافة التكاليف قبل البدء لضمان وضوح ميزانيتك.</p>
+            </div>
+          </div>
+          <div class="corner-accent"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <!-- 6. FAQ SECTION -->
+  <section class="sec-faq py-5">
+    <div class="container">
+      <div class="imdad-sec-head text-center mb-5">
+        <h2>الأسئلة الشائعة</h2>
+      </div>
+      <div class="faq-wrapper">
+        <div class="faq-item" *ngFor="let f of faqs; let i = index">
+          <div class="faq-q" (click)="f.open = !f.open">
+            {{ f.q }}
+            <i class="fas fa-chevron-down" [class.rotate]="f.open"></i>
+          </div>
+          <div class="faq-a" *ngIf="f.open">{{ f.a }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CTA FOOTER -->
+  <section class="sec-cta py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold">ابدأ استيرادك الآن بسهولة وأمان</h2>
+      <p class="mb-4">فريق إمداد في انتظارك لتنفيذ طلبك بأفضل جودة</p>
+      <div class="hero-actions d-flex justify-content-center gap-3">
+        <button class="btn-imdad-blue">اطلب عرض سعر</button>
+        <button class="btn-imdad-outline dark">تواصل واتساب</button>
+      </div>
+    </div>
+  </section>
+
+</div>
