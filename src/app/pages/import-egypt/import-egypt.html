@@ -4,10 +4,10 @@
   <div class="container hero-container-fixed">
     <div class="hero-text-box">
       <h1 class="imdad-title-refined">
-        حلول استيراد <span class="highlight-orange">متكاملة</span> للسوق المصري
+        {{ 'IMPORT_PAGE.HERO_TITLE' | translate }} <span class="highlight-orange">{{ 'IMPORT_PAGE.HERO_TITLE_ACCENT' | translate }}</span>
       </h1>
       <p class="imdad-p-refined">
-        نحن نربطك بأفضل الموردين عالمياً، نتولى التفاوض، الفحص، والشحن لباب مخزنك بأعلى معايير الجودة.
+        {{ 'IMPORT_PAGE.HERO_DESC' | translate }}
       </p>
     </div>
   </div>
@@ -16,8 +16,8 @@
  <section class="sec-services-creative py-5">
   <div class="container">
     <div class="imdad-sec-head text-center mb-5">
-      <span class="label-premium">إحنا بنعمل إيه؟</span>
-      <h2 class="title-with-line">خدماتنا <span class="text-orange">اللوجستية</span></h2>
+      <span class="label-premium">{{ 'IMPORT_PAGE.SERVICES_LABEL' | translate }}</span>
+      <h2 class="title-with-line">{{ 'IMPORT_PAGE.SERVICES_TITLE' | translate }} <span class="text-orange">{{ 'IMPORT_PAGE.SERVICES_TITLE_ACCENT' | translate }}</span></h2>
     </div>
     <div class="services-grid-modern">
       <div class="svc-card-premium" *ngFor="let s of importServices">
@@ -38,8 +38,8 @@
 <section class="imdad-process-steps py-100 bg-white">
   <div class="container">
         <div class="imdad-sec-head text-center mt-5 mb-5">
-      <span class="label-premium">طريقة العمل</span>
-      <h2 class="title-with-line">خطوات الاستيراد <span class="text-orange">معانا</span></h2>
+      <span class="label-premium">{{ 'IMPORT_PAGE.PROCESS_LABEL' | translate }}</span>
+      <h2 class="title-with-line">{{ 'IMPORT_PAGE.PROCESS_TITLE' | translate }} <span class="text-orange">{{ 'IMPORT_PAGE.PROCESS_TITLE_ACCENT' | translate }}</span></h2>
     </div>
 
     <div class="row align-items-center g-5">
@@ -72,8 +72,8 @@
   <div class="container">
     
     <div class="imdad-sec-head text-center mb-5">
-      <span class="label-premium">الكتالوج</span>
-      <h2 class="title-with-line">المنتجات اللي تقدر <span class="text-orange">تستوردها</span></h2>
+      <span class="label-premium">{{ 'IMPORT_PAGE.CATALOG_LABEL' | translate }}</span>
+      <h2 class="title-with-line">{{ 'IMPORT_PAGE.CATALOG_TITLE' | translate }} <span class="text-orange">{{ 'IMPORT_PAGE.CATALOG_TITLE_ACCENT' | translate }}</span></h2>
     </div>
 
     <div class="products-grid-v2">
@@ -105,104 +105,111 @@
   </div>
 </section>
 
-<section class="sec-why-angled py-100 bg-white">
+<section class="imdad-mobile-first py-5 bg-white">
   <div class="container">
     
-    <!-- العنوان الموحد -->
     <div class="imdad-sec-head text-center mb-5">
-      <span class="label-premium">مميزاتنا</span>
-      <h2 class="title-with-line">ليه تختار <span class="text-orange">"إمداد"؟</span></h2>
+      <h2 class="fw-bold" style="color: #003366;">{{ 'IMPORT_PAGE.WHY_TITLE' | translate }} <span style="color: #FF8C00;">{{ 'IMPORT_PAGE.WHY_TITLE_ACCENT' | translate }}</span></h2>
     </div>
 
-    <div class="row g-5">
-      <!-- ميزة 1 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="angled-card">
-          <div class="bg-number">01</div>
-          <div class="card-inner">
-            <div class="icon-wrapper-angled">
-              <div class="hexagon-shape">
-                <i class="fas fa-history"></i>
-              </div>
-            </div>
-            <div class="card-text">
-              <h3>خبرة في السوق</h3>
-              <p>نمتلك باعاً طويلاً وفهماً عميقاً لتحديات واحتياجات السوق المحلي لضمان أفضل النتائج.</p>
-            </div>
+    <div class="row g-4">
+      <!-- كارت 1 -->
+      <div class="col-lg-4">
+        <div class="m-feature-card">
+          <div class="m-icon-box">
+            <i class="fas fa-history"></i>
           </div>
-          <div class="corner-accent"></div>
+          <div class="m-text-box">
+            <h3>{{ 'IMPORT_PAGE.WHY_1_TITLE' | translate }}</h3>
+            <p>{{ 'IMPORT_PAGE.WHY_1_DESC' | translate }}</p>
+          </div>
         </div>
       </div>
 
-      <!-- ميزة 2 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="angled-card">
-          <div class="bg-number">02</div>
-          <div class="card-inner">
-            <div class="icon-wrapper-angled">
-              <div class="hexagon-shape">
-                <i class="fas fa-user-shield"></i>
-              </div>
-            </div>
-            <div class="card-text">
-              <h3>تقليل المخاطر</h3>
-              <p>نعمل كدرع واقي لاستثماراتك من خلال فحص الموردين وضمان جودة الشحنات بدقة.</p>
-            </div>
+      <!-- كارت 2 -->
+      <div class="col-lg-4">
+        <div class="m-feature-card">
+          <div class="m-icon-box">
+            <i class="fas fa-user-shield"></i>
           </div>
-          <div class="corner-accent"></div>
+          <div class="m-text-box">
+            <h3>{{ 'IMPORT_PAGE.WHY_2_TITLE' | translate }}</h3>
+            <p>{{ 'IMPORT_PAGE.WHY_2_DESC' | translate }}</p>
+          </div>
         </div>
       </div>
 
-      <!-- ميزة 3 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="angled-card">
-          <div class="bg-number">03</div>
-          <div class="card-inner">
-            <div class="icon-wrapper-angled">
-              <div class="hexagon-shape">
-                <i class="fas fa-search-dollar"></i>
-              </div>
-            </div>
-            <div class="card-text">
-              <h3>شفافية التكاليف</h3>
-              <p>نقدم تحليلاً دقيقاً وشاملاً لكافة التكاليف قبل البدء لضمان وضوح ميزانيتك.</p>
-            </div>
+      <!-- كارت 3 -->
+      <div class="col-lg-4">
+        <div class="m-feature-card">
+          <div class="m-icon-box">
+            <i class="fas fa-search-dollar"></i>
           </div>
-          <div class="corner-accent"></div>
+          <div class="m-text-box">
+            <h3>{{ 'IMPORT_PAGE.WHY_3_TITLE' | translate }}</h3>
+            <p>{{ 'IMPORT_PAGE.WHY_3_DESC' | translate }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- 6. FAQ SECTION -->
+<section class="sec-faq-minimal">
+  <div class="container">
+    
+    <div class="imdad-sec-head text-center mb-5">
+      <h2 class="faq-main-title">{{ 'IMPORT_PAGE.FAQ_TITLE' | translate }} <span class="text-orange">{{ 'IMPORT_PAGE.FAQ_TITLE_ACCENT' | translate }}</span></h2>
+    </div>
+
+    <div class="faq-grid-container">
+      <div class="faq-item-v3" *ngFor="let f of faqs; let i = index" [class.is-active]="f.open">
+        <!-- منطقة السؤال -->
+        <div class="faq-question-v3" (click)="f.open = !f.open">
+          <h3>{{ f.q }}</h3>
+          <span class="chevron-v3">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </div>
+        <!-- منطقة الإجابة -->
+        <div class="faq-answer-v3" [class.show]="f.open">
+          <div class="answer-content-v3">
+            {{ f.a }}
+          </div>
         </div>
       </div>
     </div>
 
   </div>
 </section>
-  <!-- 6. FAQ SECTION -->
-  <section class="sec-faq py-5">
-    <div class="container">
-      <div class="imdad-sec-head text-center mb-5">
-        <h2>الأسئلة الشائعة</h2>
+
+<section class="imdad-cta-creative py-100">
+  <!-- دوائر ملونة باهتة جداً في الخلفية لإعطاء لمسة فنية -->
+  <div class="blob-bg"></div>
+  
+  <div class="container">
+    <div class="cta-wrapper-v3">
+      
+      <div class="cta-text-side">
+        <h2 class="cta-title-v3">{{ 'IMPORT_PAGE.CTA_TITLE' | translate }} <span class="accent-text">{{ 'IMPORT_PAGE.CTA_TITLE_ACCENT' | translate }}</span></h2>
+        <p class="cta-p-v3">{{ 'IMPORT_PAGE.CTA_DESC' | translate }}</p>
       </div>
-      <div class="faq-wrapper">
-        <div class="faq-item" *ngFor="let f of faqs; let i = index">
-          <div class="faq-q" (click)="f.open = !f.open">
-            {{ f.q }}
-            <i class="fas fa-chevron-down" [class.rotate]="f.open"></i>
-          </div>
-          <div class="faq-a" *ngIf="f.open">{{ f.a }}</div>
+
+      <div class="cta-action-side">
+        <div class="btn-stack">
+          <button class="cta-btn-primary">
+            {{ 'IMPORT_PAGE.CTA_BTN' | translate }}
+            <div class="btn-glow"></div>
+          </button>
+          
+          <a href="#" class="cta-link-wa">
+            <i class="fab fa-whatsapp"></i>
+            {{ 'IMPORT_PAGE.CTA_WHATSAPP' | translate }}
+          </a>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- 7. CTA FOOTER -->
-  <section class="sec-cta py-5">
-    <div class="container text-center">
-      <h2 class="fw-bold">ابدأ استيرادك الآن بسهولة وأمان</h2>
-      <p class="mb-4">فريق إمداد في انتظارك لتنفيذ طلبك بأفضل جودة</p>
-      <div class="hero-actions d-flex justify-content-center gap-3">
-        <button class="btn-imdad-blue">اطلب عرض سعر</button>
-        <button class="btn-imdad-outline dark">تواصل واتساب</button>
-      </div>
     </div>
-  </section>
-
+  </div>
+</section>
 </div>

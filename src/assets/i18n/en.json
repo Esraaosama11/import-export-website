@@ -200,5 +200,44 @@
     "VALUES_TEXT": "We operate according to the principles of <strong>fair trade</strong>, with full commitment to transparency and cooperation to achieve mutual success — placing client satisfaction and providing the best products at the top of our priorities.",
     "GOAL_TITLE": "Our Ambitious Goal",
     "GOAL_TEXT": "To be the <strong>trusted partner</strong> that guarantees highly efficient services and facilitates the flow of trade between local and global markets with seamless professionalism."
-  }
+  },
+  "IMPORT_PAGE": {
+  "HERO_TITLE": "Integrated Import Solutions",
+  "HERO_TITLE_ACCENT": "for the Egyptian Market",
+  "HERO_DESC": "We connect you with top global suppliers and handle negotiation, inspection, and shipping to your warehouse with the highest quality standards.",
+
+  "SERVICES_LABEL": "What We Do",
+  "SERVICES_TITLE": "Our",
+  "SERVICES_TITLE_ACCENT": "Logistics Services",
+
+  "PROCESS_LABEL": "How It Works",
+  "PROCESS_TITLE": "Import Steps",
+  "PROCESS_TITLE_ACCENT": "With Us",
+
+  "CATALOG_LABEL": "Catalog",
+  "CATALOG_TITLE": "Products You Can",
+  "CATALOG_TITLE_ACCENT": "Import",
+
+  "WHY_TITLE": "Why Choose",
+  "WHY_TITLE_ACCENT": "Imdad?",
+
+  "WHY_1_TITLE": "Experience in the Egyptian Market",
+  "WHY_1_DESC": "Deep understanding of local market challenges to ensure the best results for your business.",
+
+  "WHY_2_TITLE": "Reduced Import Risks",
+  "WHY_2_DESC": "We protect you by verifying suppliers and ensuring product quality before shipping.",
+
+  "WHY_3_TITLE": "Full Cost Transparency",
+  "WHY_3_DESC": "Accurate and comprehensive cost analysis before starting to match your budget.",
+
+  "FAQ_TITLE": "Frequently Asked",
+  "FAQ_TITLE_ACCENT": "Questions",
+
+  "CTA_TITLE": "Ready to Start a",
+  "CTA_TITLE_ACCENT": "Successful Import Journey?",
+  "CTA_DESC": "Leave the details to us and focus on growing your business. Our team is ready to support you now.",
+
+  "CTA_BTN": "Request a Quote",
+  "CTA_WHATSAPP": "Or contact us via WhatsApp"
+}
 }

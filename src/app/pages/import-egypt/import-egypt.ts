@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-import-egypt',
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './import-egypt.html',
   styleUrl: './import-egypt.css',
 })
