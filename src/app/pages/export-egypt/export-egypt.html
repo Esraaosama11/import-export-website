@@ -4,10 +4,11 @@
         <div class="container hero-container-fixed">
             <div class="hero-text-box">
                 <h1 class="imdad-title-refined">
-                    تصدير المنتجات المصرية <span class="highlight-orange">للأسواق العالمية</span>
+                    {{ 'EXPORT_PAGE.HERO_TITLE' | translate }} <span class="highlight-orange">{{ 'EXPORT_PAGE.HERO_TITLE_ACCENT' | translate }}</span>
                 </h1>
                 <p class="imdad-p-refined">
-                    نساعدك على تصدير منتجاتك للأسواق العالمية بسهولة وأمان من البداية للنهاية </p>
+                    {{ 'EXPORT_PAGE.HERO_DESC' | translate }}
+                </p>
             </div>
         </div>
     </section>
@@ -15,34 +16,16 @@
     <section class="sec-services-creative py-5">
         <div class="container">
             <div class="imdad-sec-head text-center mb-5">
-                <span class="label-premium"> خدماتنا في التصدير</span>
-                <h2 class="title-with-line">حلول <span class="text-orange">لوجستية</span> متكاملة</h2>
+                <span class="label-premium">{{ 'EXPORT_PAGE.SERVICES_LABEL' | translate }}</span>
+                <h2 class="title-with-line">{{ 'EXPORT_PAGE.SERVICES_TITLE' | translate }} <span class="text-orange">{{ 'EXPORT_PAGE.SERVICES_TITLE_ACCENT' | translate }}</span></h2>
             </div>
             <div class="services-grid-modern">
-                <div class="svc-card-premium">
+                <div class="svc-card-premium" *ngFor="let s of exportServices">
                     <div class="card-bg-decoration"></div>
-                    <div class="icon-floating"><i class="fas fa-handshake"></i></div>
+                    <div class="icon-floating"><i [class]="s.icon"></i></div>
                     <div class="svc-content">
-                        <h3>توفير الموردين</h3>
-                        <p>نربطك بمصانع وموردين مصريين موثوقين لضمان أعلى جودة للمنتج الصادر.</p>
-                    </div>
-                    <div class="card-footer-line"></div>
-                </div>
-                <div class="svc-card-premium">
-                    <div class="card-bg-decoration"></div>
-                    <div class="icon-floating"><i class="fas fa-file-invoice"></i></div>
-                    <div class="svc-content">
-                        <h3>تجهيز المستندات</h3>
-                        <p>إعداد الفواتير، قوائم التعبئة، وشهادات المنشأ وفق المعايير الدولية.</p>
-                    </div>
-                    <div class="card-footer-line"></div>
-                </div>
-                <div class="svc-card-premium">
-                    <div class="card-bg-decoration"></div>
-                    <div class="icon-floating"><i class="fas fa-box-open"></i></div>
-                    <div class="svc-content">
-                        <h3>التعبئة والتغليف</h3>
-                        <p>تغليف احترافي يحمي شحنتك ويطابق المواصفات الفنية للبلد المستورد.</p>
+                        <h3>{{ s.title | translate }}</h3>
+                        <p>{{ s.desc | translate }}</p>
                     </div>
                     <div class="card-footer-line"></div>
                 </div>
@@ -53,14 +36,14 @@
     <section class="imdad-process-steps py-100 bg-white">
         <div class="container">
             <div class="imdad-sec-head text-center mt-5 mb-5">
-                <span class="label-premium"> خطوات العمل</span>
-                <h2 class="title-with-line">رحلة منتجك <span class="text-orange">من مصر للعالم</span></h2>
+                <span class="label-premium">{{ 'EXPORT_PAGE.PROCESS_LABEL' | translate }}</span>
+                <h2 class="title-with-line">{{ 'EXPORT_PAGE.PROCESS_TITLE' | translate }} <span class="text-orange">{{ 'EXPORT_PAGE.PROCESS_TITLE_ACCENT' | translate }}</span></h2>
             </div>
             <div class="row align-items-center g-5">
                 <div class="col-lg-6">
                     <div class="creative-img-frame">
                         <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1000&auto=format&fit=crop"
-                            class="img-fluid main-img-styled" alt="خطوات التصدير">
+                            class="img-fluid main-img-styled" alt="export steps">
                         <div class="decorative-outline"></div>
                     </div>
                 </div>
@@ -72,7 +55,7 @@
                                 <div class="vertical-path" *ngIf="i !== exportSteps.length - 1"></div>
                             </div>
                             <div class="step-content-box">
-                                <p>{{ step }}</p>
+                                <p>{{ step | translate }}</p>
                             </div>
                         </div>
                     </div>
@@ -84,19 +67,19 @@
     <section class="imdad-catalog-creative py-100" style="background-color: #f1f1f1;">
         <div class="container">
             <div class="imdad-sec-head text-center mb-5">
-                <span class="label-premium">الكتالوج المصري</span>
-                <h2 class="title-with-line">أبرز المنتجات <span class="text-orange">القابلة للتصدير</span></h2>
+                <span class="label-premium">{{ 'EXPORT_PAGE.CATALOG_LABEL' | translate }}</span>
+                <h2 class="title-with-line">{{ 'EXPORT_PAGE.CATALOG_TITLE' | translate }} <span class="text-orange">{{ 'EXPORT_PAGE.CATALOG_TITLE_ACCENT' | translate }}</span></h2>
             </div>
             <div class="products-grid-v2">
                 <div class="premium-prod-card" *ngFor="let cat of exportCatalog">
                     <div class="prod-visual">
-                        <img [src]="cat.image" [alt]="cat.name" class="img-fluid">
+                        <img [src]="cat.image" [alt]="cat.name | translate" class="img-fluid">
                         <div class="prod-gradient-overlay"></div>
                     </div>
                     <div class="prod-details">
-                        <h3 class="prod-title">{{ cat.name }}</h3>
+                        <h3 class="prod-title">{{ cat.name | translate }}</h3>
                         <ul class="clean-tags-list">
-                            <li *ngFor="let item of cat.items">{{ item }}</li>
+                            <li *ngFor="let item of cat.items">{{ item | translate }}</li>
                         </ul>
                     </div>
                     <div class="card-bottom-line"></div>
@@ -108,16 +91,15 @@
     <section class="imdad-mobile-first py-5 bg-white">
         <div class="container">
             <div class="imdad-sec-head text-center mb-5">
-                <h2 class="fw-bold" style="color: #003366;"> لماذا تختار <span style="color: #FF8C00;">"إمداد"؟</span>
-                </h2>
+                <h2 class="fw-bold" style="color: #003366;">{{ 'EXPORT_PAGE.WHY_TITLE' | translate }} <span style="color: #FF8C00;">{{ 'EXPORT_PAGE.WHY_TITLE_ACCENT' | translate }}</span></h2>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="m-feature-card">
                         <div class="m-icon-box"><i class="fas fa-network-wired"></i></div>
                         <div class="m-text-box">
-                            <h3>شبكة موردين موثوقة</h3>
-                            <p>نتعامل مع أفضل المصانع المصرية لضمان منتج يشرفك عالمياً.</p>
+                            <h3>{{ 'EXPORT_PAGE.WHY_1_TITLE' | translate }}</h3>
+                            <p>{{ 'EXPORT_PAGE.WHY_1_DESC' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -125,8 +107,8 @@
                     <div class="m-feature-card">
                         <div class="m-icon-box"><i class="fas fa-medal"></i></div>
                         <div class="m-text-box">
-                            <h3>التزام بالمعايير</h3>
-                            <p>نضمن مطابقة كافة الشحنات للمواصفات الدولية والجودة العالمية.</p>
+                            <h3>{{ 'EXPORT_PAGE.WHY_2_TITLE' | translate }}</h3>
+                            <p>{{ 'EXPORT_PAGE.WHY_2_DESC' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -134,8 +116,8 @@
                     <div class="m-feature-card">
                         <div class="m-icon-box"><i class="fas fa-tags"></i></div>
                         <div class="m-text-box">
-                            <h3>أسعار تنافسية</h3>
-                            <p>نوفر لك أفضل تكلفة شحن ولوجستيات لزيادة هوامش ربحك.</p>
+                            <h3>{{ 'EXPORT_PAGE.WHY_3_TITLE' | translate }}</h3>
+                            <p>{{ 'EXPORT_PAGE.WHY_3_DESC' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -145,28 +127,23 @@
 
     <section class="imdad-cta-creative py-100">
         <div class="blob-bg"></div>
-
         <div class="container">
             <div class="cta-wrapper-v3">
-
                 <div class="cta-text-side">
-                    <h2 class="cta-title-v3">جاهز تفتح <span class="accent-text">سوق عالمي</span> لمنتجك؟</h2>
-                    <p class="cta-p-v3">ابدأ في توسيع أعمالك والوصول إلى الأسواق العالمية مع خدمات تصدير احترافية.</p>
+                    <h3 class="cta-title-v3">{{ 'EXPORT_PAGE.CTA_TITLE' | translate }} <span class="accent-text">{{ 'EXPORT_PAGE.CTA_TITLE_ACCENT' | translate }}</span></h3>
+                    <p class="cta-p-v3">{{ 'EXPORT_PAGE.CTA_DESC' | translate }}</p>
                 </div>
-
                 <div class="cta-action-side">
                     <div class="btn-stack">
                         <button class="cta-btn-primary">
-                            اطلب عرض سعر تصدير
+                            {{ 'EXPORT_PAGE.CTA_BTN' | translate }}
                             <div class="btn-glow"></div>
                         </button>
-
                         <a href="#" class="cta-link-wa">
-                            <i class="fab fa-whatsapp"></i> أو تواصل معنا عبر واتساب
+                            <i class="fab fa-whatsapp"></i> {{ 'EXPORT_PAGE.CTA_WHATSAPP' | translate }}
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>

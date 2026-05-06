@@ -202,42 +202,211 @@
     "GOAL_TEXT": "To be the <strong>trusted partner</strong> that guarantees highly efficient services and facilitates the flow of trade between local and global markets with seamless professionalism."
   },
   "IMPORT_PAGE": {
-  "HERO_TITLE": "Integrated Import Solutions",
-  "HERO_TITLE_ACCENT": "for the Egyptian Market",
-  "HERO_DESC": "We connect you with top global suppliers and handle negotiation, inspection, and shipping to your warehouse with the highest quality standards.",
+    "HERO_TITLE": "Integrated Import Solutions",
+    "HERO_TITLE_ACCENT": "for the Egyptian Market",
+    "HERO_DESC": " We connect you with top suppliers and handle everything until delivery",
 
-  "SERVICES_LABEL": "What We Do",
-  "SERVICES_TITLE": "Our",
-  "SERVICES_TITLE_ACCENT": "Logistics Services",
+    "SERVICES_LABEL": "What We Do",
+    "SERVICES_TITLE": "Our",
+    "SERVICES_TITLE_ACCENT": "Logistics Services",
 
-  "PROCESS_LABEL": "How It Works",
-  "PROCESS_TITLE": "Import Steps",
-  "PROCESS_TITLE_ACCENT": "With Us",
+    "PROCESS_LABEL": "How It Works",
+    "PROCESS_TITLE": "Import Steps",
+    "PROCESS_TITLE_ACCENT": "With Us",
 
-  "CATALOG_LABEL": "Catalog",
-  "CATALOG_TITLE": "Products You Can",
-  "CATALOG_TITLE_ACCENT": "Import",
+    "CATALOG_LABEL": "Catalog",
+    "CATALOG_TITLE": "Products You Can",
+    "CATALOG_TITLE_ACCENT": "Import",
 
-  "WHY_TITLE": "Why Choose",
-  "WHY_TITLE_ACCENT": "Imdad?",
+    "WHY_TITLE": "Why Choose",
+    "WHY_TITLE_ACCENT": "Imdad?",
+    "WHY_1_TITLE": "Experience in the Egyptian Market",
+    "WHY_1_DESC": "Deep understanding of local market challenges to ensure the best results for your business.",
+    "WHY_2_TITLE": "Reduced Import Risks",
+    "WHY_2_DESC": "We protect you by verifying suppliers and ensuring product quality before shipping.",
+    "WHY_3_TITLE": "Full Cost Transparency",
+    "WHY_3_DESC": "Accurate and comprehensive cost analysis before starting to match your budget.",
 
-  "WHY_1_TITLE": "Experience in the Egyptian Market",
-  "WHY_1_DESC": "Deep understanding of local market challenges to ensure the best results for your business.",
+    "FAQ_TITLE": "Frequently Asked",
+    "FAQ_TITLE_ACCENT": "Questions",
 
-  "WHY_2_TITLE": "Reduced Import Risks",
-  "WHY_2_DESC": "We protect you by verifying suppliers and ensuring product quality before shipping.",
+    "CTA_TITLE": "Ready to Start a",
+    "CTA_TITLE_ACCENT": "Successful Import Journey?",
+    "CTA_DESC": "Leave the details to us and focus on growing your business. Our team is ready to support you now.",
+    "CTA_BTN": "Request a Quote",
+    "CTA_WHATSAPP": "Or contact us via WhatsApp",
 
-  "WHY_3_TITLE": "Full Cost Transparency",
-  "WHY_3_DESC": "Accurate and comprehensive cost analysis before starting to match your budget.",
+    "SERVICES": {
+      "S1_TITLE": "Supplier Search",
+      "S1_DESC": "We find the best factories in China, Turkey, and beyond.",
+      "S2_TITLE": "Price Negotiation",
+      "S2_DESC": "We negotiate directly to secure the best possible price.",
+      "S3_TITLE": "Quality Inspection",
+      "S3_DESC": "Thorough product inspection before shipping to ensure compliance.",
+      "S4_TITLE": "International Shipping",
+      "S4_DESC": "Comprehensive sea and air freight solutions.",
+      "S5_TITLE": "Customs Clearance",
+      "S5_DESC": "Professional and fast customs clearance inside Egypt.",
+      "S6_TITLE": "Last-Mile Delivery",
+      "S6_DESC": "Delivering your goods straight to your warehouse door."
+    },
 
-  "FAQ_TITLE": "Frequently Asked",
-  "FAQ_TITLE_ACCENT": "Questions",
+    "STEPS": {
+      "STEP1": "Send us the product or idea",
+      "STEP2": "We provide quotes from verified suppliers",
+      "STEP3": "You choose the right offer",
+      "STEP4": "We inspect quality before shipping",
+      "STEP5": "We ship and clear customs",
+      "STEP6": "You receive your goods ready to go"
+    },
 
-  "CTA_TITLE": "Ready to Start a",
-  "CTA_TITLE_ACCENT": "Successful Import Journey?",
-  "CTA_DESC": "Leave the details to us and focus on growing your business. Our team is ready to support you now.",
+    "CATALOG": {
+      "CAT1_NAME": "Automotive",
+      "CAT1_ITEM1": "Car accessories (LED lighting – interior fittings)",
+      "CAT1_ITEM2": "Android car screens",
+      "CAT1_ITEM3": "Roof racks and roof boxes",
+      "CAT1_ITEM4": "Car air fresheners",
+      "CAT1_ITEM5": "Jump starters and emergency batteries",
 
-  "CTA_BTN": "Request a Quote",
-  "CTA_WHATSAPP": "Or contact us via WhatsApp"
-}
+      "CAT2_NAME": "Solar Energy",
+      "CAT2_ITEM1": "Solar-powered floodlights",
+      "CAT2_ITEM2": "Home solar energy systems",
+      "CAT2_ITEM3": "Street lighting units",
+      "CAT2_ITEM4": "Solar generators and power banks",
+      "CAT2_ITEM5": "Solar garden lighting",
+
+      "CAT3_NAME": "Home Appliances",
+      "CAT3_ITEM1": "Modern kitchen tools",
+      "CAT3_ITEM2": "Organization and storage products",
+      "CAT3_ITEM3": "Cleaning tools",
+      "CAT3_ITEM4": "Bathroom accessories",
+      "CAT3_ITEM5": "Home décor",
+
+      "CAT4_NAME": "Lighting & Electrical",
+      "CAT4_ITEM1": "Energy-saving LED bulbs",
+      "CAT4_ITEM2": "Indoor and outdoor lighting systems",
+      "CAT4_ITEM3": "Smart lighting",
+      "CAT4_ITEM4": "Motion-sensor floodlights",
+      "CAT4_ITEM5": "Industrial lighting units",
+
+      "CAT5_NAME": "Clothing & Consumer Goods",
+      "CAT5_ITEM1": "Casual and sportswear",
+      "CAT5_ITEM2": "Bags and shoes",
+      "CAT5_ITEM3": "Children's products",
+
+      "CAT6_NAME": "Light Electronics",
+      "CAT6_ITEM1": "Bluetooth headphones",
+      "CAT6_ITEM2": "Mobile accessories",
+      "CAT6_ITEM3": "Power banks",
+      "CAT6_ITEM4": "Smartwatches",
+      "CAT6_ITEM5": "Gaming accessories",
+
+      "CAT7_NAME": "Tools & Equipment",
+      "CAT7_ITEM1": "Hand and power tools",
+      "CAT7_ITEM2": "Workshop and maintenance tools",
+      "CAT7_ITEM3": "Small construction equipment",
+      "CAT7_ITEM4": "Professional safety gear",
+
+      "CAT8_NAME": "Pet Products",
+      "CAT8_ITEM1": "Pet accessories",
+      "CAT8_ITEM2": "Grooming and cleaning tools",
+      "CAT8_ITEM3": "Feeding devices",
+      "CAT8_ITEM4": "Pet toys"
+    },
+
+    "FAQS": {
+      "Q1": "What is the minimum order quantity?",
+      "A1": "It varies by product type. We offer solutions starting from small quantities up to full containers.",
+      "Q2": "How is the cost calculated?",
+      "A2": "It includes the product cost, shipping, customs, and management commission.",
+      "Q3": "How long does shipping take?",
+      "A3": "It depends on the shipping method (sea or air) and country of origin, typically ranging from 10 to 45 days.",
+      "Q4": "Do you work with individuals?",
+      "A4": "Yes, we serve both companies and individuals looking to start their own business ventures."
+    }
+  },
+  "EXPORT_PAGE": {
+    "HERO_TITLE": "Exporting Egyptian Products",
+    "HERO_TITLE_ACCENT": "to Global Markets",
+    "HERO_DESC": "We help you export your products to global markets easily and safely from start to finish.",
+
+    "SERVICES_LABEL": "Our Export Services",
+    "SERVICES_TITLE": "Integrated",
+    "SERVICES_TITLE_ACCENT": "Logistics Solutions",
+
+    "PROCESS_LABEL": "How It Works",
+    "PROCESS_TITLE": "Your Product's Journey",
+    "PROCESS_TITLE_ACCENT": "From Egypt to the World",
+
+    "CATALOG_LABEL": "Egyptian Catalog",
+    "CATALOG_TITLE": "Top Products",
+    "CATALOG_TITLE_ACCENT": "Ready for Export",
+
+    "WHY_TITLE": "Why Choose",
+    "WHY_TITLE_ACCENT": "Imdad?",
+    "WHY_1_TITLE": "Trusted Supplier Network",
+    "WHY_1_DESC": "We work with the best Egyptian factories to ensure a product you can be proud of globally.",
+    "WHY_2_TITLE": "Standards Compliance",
+    "WHY_2_DESC": "We guarantee all shipments meet international specifications and global quality standards.",
+    "WHY_3_TITLE": "Competitive Pricing",
+    "WHY_3_DESC": "We provide the best shipping and logistics costs to maximize your profit margins.",
+
+    "CTA_TITLE": "Ready to Open a",
+    "CTA_TITLE_ACCENT": "Global Market for Your Product?",
+    "CTA_DESC": "Start expanding your business and reaching global markets with professional export services.",
+    "CTA_BTN": "Request an Export Quote",
+    "CTA_WHATSAPP": "Or contact us via WhatsApp",
+
+    "SERVICES": {
+      "S1_TITLE": "Product Sourcing",
+      "S1_DESC": "Providing high-quality Egyptian products from trusted suppliers and factories.",
+      "S2_TITLE": "Document Preparation",
+      "S2_DESC": "Preparing invoices, packing lists, certificates of origin, and international standards.",
+      "S3_TITLE": "Packaging",
+      "S3_DESC": "Professional packaging according to international standards to ensure product safety.",
+      "S4_TITLE": "International Shipping",
+      "S4_DESC": "Comprehensive international shipping solutions (sea & air) at the best prices.",
+      "S5_TITLE": "Customs Clearance",
+      "S5_DESC": "Completing all customs procedures to ensure fast and smooth shipment departure.",
+      "S6_TITLE": "Shipment Tracking",
+      "S6_DESC": "Precise tracking of the shipment from departure until delivery to the end client."
+    },
+
+    "STEPS": {
+      "STEP1": "Identifying the product and target market carefully.",
+      "STEP2": "Sourcing the right suppliers or factories for your order.",
+      "STEP3": "Preparing all required documents and legal paperwork.",
+      "STEP4": "Starting packaging operations according to specifications.",
+      "STEP5": "Executing the final shipment and completing customs clearance.",
+      "STEP6": "Delivering the shipment to the client at its final destination."
+    },
+
+    "CATALOG": {
+      "CAT1_NAME": "Building Materials",
+      "CAT1_ITEM1": "Marble & Granite",
+      "CAT1_ITEM2": "Ceramics & Porcelain",
+      "CAT1_ITEM3": "Cement & Steel",
+
+      "CAT2_NAME": "Agricultural Products",
+      "CAT2_ITEM1": "Vegetables & Fruits",
+      "CAT2_ITEM2": "Egyptian Dates",
+      "CAT2_ITEM3": "Potatoes & Onions",
+      "CAT2_ITEM4": "Herbs & Spices",
+
+      "CAT3_NAME": "Textiles & Clothing",
+      "CAT3_ITEM1": "Cotton Clothing",
+      "CAT3_ITEM2": "Home Textiles",
+      "CAT3_ITEM3": "Premium Fabrics",
+
+      "CAT4_NAME": "Chemical Industries",
+      "CAT4_ITEM1": "Cleaning Products",
+      "CAT4_ITEM2": "Plastic Products",
+      "CAT4_ITEM3": "Agricultural Fertilizers",
+
+      "CAT5_NAME": "Furniture & Woodwork",
+      "CAT5_ITEM1": "Home Furniture",
+      "CAT5_ITEM2": "Office Furniture",
+      "CAT5_ITEM3": "Wooden Decor"
+    }
+  }
 }

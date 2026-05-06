@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -10,70 +10,112 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class ImportEgypt implements AfterViewInit {
 
-  // 1. خدمات الاستيراد
+  // 1. Import Services
   importServices = [
-    { title: 'البحث عن الموردين', icon: 'fas fa-search-location', desc: 'نبحث لك عن أفضل المصانع في الصين، تركيا، وغيرها.' },
-    { title: 'التفاوض السعري', icon: 'fas fa-handshake', desc: 'نتفاوض مباشرة للحصول على أفضل سعر ممكن.' },
-    { title: 'فحص الجودة', icon: 'fas fa-check-double', desc: 'فحص دقيق للمنتجات قبل الشحن لضمان المطابقة.' },
-    { title: 'الشحن الدولي', icon: 'fas fa-ship', desc: 'حلول شحن بحري وجوي متكاملة.' },
-    { title: 'التخليص الجمركي', icon: 'fas fa-file-contract', desc: 'تخليص احترافي وسريع داخل مصر.' },
-    { title: 'التوصيل النهائي', icon: 'fas fa-truck-loading', desc: 'توصيل البضاعة حتى باب مخزنك.' }
+    { title: 'IMPORT_PAGE.SERVICES.S1_TITLE', icon: 'fas fa-search-location', desc: 'IMPORT_PAGE.SERVICES.S1_DESC' },
+    { title: 'IMPORT_PAGE.SERVICES.S2_TITLE', icon: 'fas fa-handshake',       desc: 'IMPORT_PAGE.SERVICES.S2_DESC' },
+    { title: 'IMPORT_PAGE.SERVICES.S3_TITLE', icon: 'fas fa-check-double',    desc: 'IMPORT_PAGE.SERVICES.S3_DESC' },
+    { title: 'IMPORT_PAGE.SERVICES.S4_TITLE', icon: 'fas fa-ship',            desc: 'IMPORT_PAGE.SERVICES.S4_DESC' },
+    { title: 'IMPORT_PAGE.SERVICES.S5_TITLE', icon: 'fas fa-file-contract',   desc: 'IMPORT_PAGE.SERVICES.S5_DESC' },
+    { title: 'IMPORT_PAGE.SERVICES.S6_TITLE', icon: 'fas fa-truck-loading',   desc: 'IMPORT_PAGE.SERVICES.S6_DESC' },
   ];
 
-  // 2. خطوات العمل
+  // 2. Work Steps
   workSteps = [
-    'تبعتلنا المنتج أو الفكرة',
-    'بنوفر لك عروض أسعار من موردين موثوقين',
-    'تختار العرض المناسب',
-    'بنفحص الجودة قبل الشحن',
-    'نشحن ونخلص جمرك',
-    'تستلم بضاعتك جاهزة'
+    'IMPORT_PAGE.STEPS.STEP1',
+    'IMPORT_PAGE.STEPS.STEP2',
+    'IMPORT_PAGE.STEPS.STEP3',
+    'IMPORT_PAGE.STEPS.STEP4',
+    'IMPORT_PAGE.STEPS.STEP5',
+    'IMPORT_PAGE.STEPS.STEP6',
   ];
 
-  // 3. كتالوج المنتجات الكامل
+  // 3. Product Catalog
   productCatalog = [
     {
-      name: 'قطاع السيارات', icon: '🚗', image: 'assets/images/كككك.jpg',
-      items: ['إكسسوارات سيارات (إضاءة LED – تجهيزات داخلية)', 'شاشات أندرويد للسيارات', 'روف راك وبوكس سقف', 'معطرات سيارات', 'أجهزة تشغيل وبطاريات طوارئ']
+      name: 'IMPORT_PAGE.CATALOG.CAT1_NAME', icon: '🚗', image: 'assets/images/كككك.jpg',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT1_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT1_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT1_ITEM3',
+        'IMPORT_PAGE.CATALOG.CAT1_ITEM4',
+        'IMPORT_PAGE.CATALOG.CAT1_ITEM5',
+      ]
     },
     {
-      name: 'الطاقة الشمسية', icon: '☀️', image: 'assets/images/طططط.jpg',
-      items: ['كشافات إنارة تعمل بالطاقة الشمسية', 'أنظمة طاقة شمسية للمنازل', 'وحدات إنارة للشوارع', 'مولدات وباور بانك شمسية', 'إضاءة حدائق تعمل بالطاقة الشمسية']
+      name: 'IMPORT_PAGE.CATALOG.CAT2_NAME', icon: '☀️', image: 'assets/images/طططط.jpg',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT2_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT2_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT2_ITEM3',
+        'IMPORT_PAGE.CATALOG.CAT2_ITEM4',
+        'IMPORT_PAGE.CATALOG.CAT2_ITEM5',
+      ]
     },
     {
-      name: 'الأدوات المنزلية', icon: '🏠', image: 'assets/images/ببببب.jpg',
-      items: ['أدوات مطبخ حديثة', 'منتجات تنظيم وتخزين', 'أدوات تنظيف', 'إكسسوارات حمامات', 'ديكورات منزلية']
+      name: 'IMPORT_PAGE.CATALOG.CAT3_NAME', icon: '🏠', image: 'assets/images/ببببب.jpg',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT3_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT3_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT3_ITEM3',
+        'IMPORT_PAGE.CATALOG.CAT3_ITEM4',
+        'IMPORT_PAGE.CATALOG.CAT3_ITEM5',
+      ]
     },
     {
-      name: 'الإضاءة والكهرباء', icon: '💡', image: 'assets/images/نور.jpg',
-      items: ['لمبات LED موفرة للطاقة', 'أنظمة إضاءة داخلية وخارجية', 'لمبات ذكية (Smart Lighting)', 'كشافات بحساس حركة', 'وحدات إنارة صناعية']
-    },
-      {
-      name: 'الملابس والمنتجات الاستهلاكية', icon: '👕', image: 'assets/images/cloth.png',
-      items: ['ملابس كاجوال ورياضية', 'شنط وأحذية', 'منتجات أطفال']
-    },
-    {
-      name: 'الإلكترونيات الخفيفة', icon: '📱', image: 'assets/images/فون.jpg',
-      items: ['سماعات بلوتوث', 'إكسسوارات الموبايل', 'باور بانك', 'ساعات ذكية', 'إكسسوارات الألعاب']
+      name: 'IMPORT_PAGE.CATALOG.CAT4_NAME', icon: '💡', image: 'assets/images/نور.jpg',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT4_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT4_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT4_ITEM3',
+        'IMPORT_PAGE.CATALOG.CAT4_ITEM4',
+        'IMPORT_PAGE.CATALOG.CAT4_ITEM5',
+      ]
     },
     {
-      name: 'المعدات والأدوات', icon: '🧰', image: 'assets/images/تتتت.jpg',
-      items: ['عدة يدوية وكهربائية', 'أدوات ورش وصيانة', 'معدات صغيرة للبناء', 'أدوات السلامة المهنية']
+      name: 'IMPORT_PAGE.CATALOG.CAT5_NAME', icon: '👕', image: 'assets/images/cloth.png',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT5_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT5_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT5_ITEM3',
+      ]
     },
-  
     {
-      name: 'منتجات الحيوانات الأليفة', icon: '🐶', image: 'assets/images/كلابس.png',
-      items: ['إكسسوارات الحيوانات الأليفة', 'أدوات العناية والتنظيف', 'أجهزة التغذية', 'ألعاب الحيوانات']
-    }
+      name: 'IMPORT_PAGE.CATALOG.CAT6_NAME', icon: '📱', image: 'assets/images/فون.jpg',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT6_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT6_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT6_ITEM3',
+        'IMPORT_PAGE.CATALOG.CAT6_ITEM4',
+        'IMPORT_PAGE.CATALOG.CAT6_ITEM5',
+      ]
+    },
+    {
+      name: 'IMPORT_PAGE.CATALOG.CAT7_NAME', icon: '🧰', image: 'assets/images/تتتت.jpg',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT7_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT7_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT7_ITEM3',
+        'IMPORT_PAGE.CATALOG.CAT7_ITEM4',
+      ]
+    },
+    {
+      name: 'IMPORT_PAGE.CATALOG.CAT8_NAME', icon: '🐶', image: 'assets/images/كلابس.png',
+      items: [
+        'IMPORT_PAGE.CATALOG.CAT8_ITEM1',
+        'IMPORT_PAGE.CATALOG.CAT8_ITEM2',
+        'IMPORT_PAGE.CATALOG.CAT8_ITEM3',
+        'IMPORT_PAGE.CATALOG.CAT8_ITEM4',
+      ]
+    },
   ];
 
-  
-  // 5. الأسئلة الشائعة
+  // 4. FAQs
   faqs = [
-    { q: 'أقل كمية كام؟', a: 'تختلف حسب نوع المنتج، نوفر حلولاً تبدأ من كميات بسيطة حتى الحاويات الكاملة.', open: false },
-    { q: 'التكلفة بتتحسب إزاي؟', a: 'تشمل تكلفة المنتج، الشحن، الجمارك، وعمولة الإدارة.', open: false },
-    { q: 'مدة الشحن قد إيه؟', a: 'تعتمد على وسيلة الشحن (بحري أو جوي) وبلد المنشأ، وتتراوح عادة بين 10 إلى 45 يومًا.', open: false },
-    { q: 'هل بتتعاملوا مع أفراد؟', a: 'نعم، نوفر خدماتنا للشركات والأفراد الراغبين في بدء مشاريعهم الخاصة.', open: false }
+    { q: 'IMPORT_PAGE.FAQS.Q1', a: 'IMPORT_PAGE.FAQS.A1', open: false },
+    { q: 'IMPORT_PAGE.FAQS.Q2', a: 'IMPORT_PAGE.FAQS.A2', open: false },
+    { q: 'IMPORT_PAGE.FAQS.Q3', a: 'IMPORT_PAGE.FAQS.A3', open: false },
+    { q: 'IMPORT_PAGE.FAQS.Q4', a: 'IMPORT_PAGE.FAQS.A4', open: false },
   ];
 
   toggleFaq(index: number): void {

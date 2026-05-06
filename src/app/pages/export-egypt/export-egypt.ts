@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';  
+import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -9,78 +9,74 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './export-egypt.css',
 })
 export class ExportEgypt {
-  
-  // 1. خدمات التصدير
+
+  // 1. Export Services
   exportServices = [
-    {
-      title: 'توفير المنتجات',
-      desc: 'توفير المنتجات المصرية عالية الجودة من موردين ومصانع موثوقة.',
-      icon: 'fas fa-handshake'
-    },
-    {
-      title: 'تجهيز المستندات',
-      desc: 'إعداد الفواتير، قوائم التعبئة، وشهادات المنشأ والمعايير الدولية.',
-      icon: 'fas fa-file-invoice'
-    },
-    {
-      title: 'التعبئة والتغليف',
-      desc: 'التعبئة والتغليف الاحترافي وفق المعايير الدولية لضمان سلامة المنتج.',
-      icon: 'fas fa-box-open'
-    },
-    {
-      title: 'الشحن الدولي',
-      desc: 'حلول شحن دولي متكاملة (بحري – جوي) بأفضل الأسعار.',
-      icon: 'fas fa-ship'
-    },
-    {
-      title: 'التخليص الجمركي',
-      desc: 'إنهاء كافة الإجراءات الجمركية لضمان خروج الشحنة بسرعة وسهولة.',
-      icon: 'fas fa-clipboard-check'
-    },
-    {
-      title: 'متابعة الشحنة',
-      desc: 'متابعة دقيقة للشحنة من لحظة خروجها وحتى وصولها للعميل النهائي.',
-      icon: 'fas fa-route'
-    }
+    { title: 'EXPORT_PAGE.SERVICES.S1_TITLE', desc: 'EXPORT_PAGE.SERVICES.S1_DESC', icon: 'fas fa-handshake' },
+    { title: 'EXPORT_PAGE.SERVICES.S2_TITLE', desc: 'EXPORT_PAGE.SERVICES.S2_DESC', icon: 'fas fa-file-invoice' },
+    { title: 'EXPORT_PAGE.SERVICES.S3_TITLE', desc: 'EXPORT_PAGE.SERVICES.S3_DESC', icon: 'fas fa-box-open' },
+    { title: 'EXPORT_PAGE.SERVICES.S4_TITLE', desc: 'EXPORT_PAGE.SERVICES.S4_DESC', icon: 'fas fa-ship' },
+    { title: 'EXPORT_PAGE.SERVICES.S5_TITLE', desc: 'EXPORT_PAGE.SERVICES.S5_DESC', icon: 'fas fa-clipboard-check' },
+    { title: 'EXPORT_PAGE.SERVICES.S6_TITLE', desc: 'EXPORT_PAGE.SERVICES.S6_DESC', icon: 'fas fa-route' },
   ];
 
-  // 2. خطوات التصدير
+  // 2. Export Steps
   exportSteps = [
-    'تحديد المنتج والسوق المستهدف بعناية.',
-    'توفير الموردين أو المصانع المناسبة لطلبك.',
-    'تجهيز المستندات والأوراق القانونية المطلوبة.',
-    'بدء عمليات التعبئة والتغليف وفق المواصفات.',
-    'تنفيذ الشحن النهائي وإنهاء التخليص الجمركي.',
-    'تسليم الشحنة للعميل في وجهتها النهائية.'
+    'EXPORT_PAGE.STEPS.STEP1',
+    'EXPORT_PAGE.STEPS.STEP2',
+    'EXPORT_PAGE.STEPS.STEP3',
+    'EXPORT_PAGE.STEPS.STEP4',
+    'EXPORT_PAGE.STEPS.STEP5',
+    'EXPORT_PAGE.STEPS.STEP6',
   ];
 
-  // 3. كتالوج منتجات التصدير (الصور تقديرية، تقدري تغيريها)
+  // 3. Export Catalog
   exportCatalog = [
     {
-      name: 'مواد البناء',
+      name: 'EXPORT_PAGE.CATALOG.CAT1_NAME',
       image: 'assets/images/تصدير.jpg',
-      items: ['رخام وجرانيت', 'سيراميك وبورسلين', 'أسمنت وحديد']
+      items: [
+        'EXPORT_PAGE.CATALOG.CAT1_ITEM1',
+        'EXPORT_PAGE.CATALOG.CAT1_ITEM2',
+        'EXPORT_PAGE.CATALOG.CAT1_ITEM3',
+      ]
     },
     {
-      name: 'المنتجات الزراعية',
+      name: 'EXPORT_PAGE.CATALOG.CAT2_NAME',
       image: 'assets/images/فواكه.jpg',
-      items: ['خضروات وفاكهة', 'تمور مصري', 'بطاطس وبصل', 'أعشاب وتوابل']
+      items: [
+        'EXPORT_PAGE.CATALOG.CAT2_ITEM1',
+        'EXPORT_PAGE.CATALOG.CAT2_ITEM2',
+        'EXPORT_PAGE.CATALOG.CAT2_ITEM3',
+        'EXPORT_PAGE.CATALOG.CAT2_ITEM4',
+      ]
     },
     {
-      name: 'المنسوجات والملابس',
+      name: 'EXPORT_PAGE.CATALOG.CAT3_NAME',
       image: 'assets/images/ملابس.jpg',
-      items: ['ملابس قطنية', 'مفروشات', 'أقمشة فاخرة']
+      items: [
+        'EXPORT_PAGE.CATALOG.CAT3_ITEM1',
+        'EXPORT_PAGE.CATALOG.CAT3_ITEM2',
+        'EXPORT_PAGE.CATALOG.CAT3_ITEM3',
+      ]
     },
     {
-      name: 'الصناعات الكيماوية',
+      name: 'EXPORT_PAGE.CATALOG.CAT4_NAME',
       image: 'assets/images/نظافة.jpg',
-      items: ['منظفات', 'منتجات بلاستيكية', 'أسمدة زراعية']
+      items: [
+        'EXPORT_PAGE.CATALOG.CAT4_ITEM1',
+        'EXPORT_PAGE.CATALOG.CAT4_ITEM2',
+        'EXPORT_PAGE.CATALOG.CAT4_ITEM3',
+      ]
     },
     {
-      name: 'الأثاث والخشبيات',
+      name: 'EXPORT_PAGE.CATALOG.CAT5_NAME',
       image: 'assets/images/خشب.jpg',
-      items: ['أثاث منزلي', 'أثاث مكتبي', 'ديكور خشبية']
-    }
+      items: [
+        'EXPORT_PAGE.CATALOG.CAT5_ITEM1',
+        'EXPORT_PAGE.CATALOG.CAT5_ITEM2',
+        'EXPORT_PAGE.CATALOG.CAT5_ITEM3',
+      ]
+    },
   ];
-
 }

@@ -34,7 +34,7 @@
     "TITLE_HIGHLIGHT": "Comercio Internacional",
     "TITLE_SINCE": "Desde 2006",
     "TEXT1": "Imdad Import & Export es tu socio de confianza con más de 20 años de experiencia. Nos apoyamos en una sólida red global y un enfoque basado en la transparencia y el comercio justo.",
-    "TEXT2": "Proporcionamos soluciones de importación y exportación altamente eficientes que satisfacen las necesidades de nuestros clientes.",
+    "TEXT2": "Ofrecemos soluciones de importación y exportación altamente eficientes que satisfacen las necesidades de nuestros clientes y les ayudan a triunfar en los mercados globales.",
     "READ_MORE": "Leer más",
     "EXPERIENCE_NUM": "20+",
     "EXPERIENCE_TEXT": "Años de experiencia"
@@ -42,7 +42,7 @@
   "STATS": {
     "TITLE": "Estadísticas clave de",
     "TITLE_HIGHLIGHT": "Imdad Company",
-    "DESC": "No solo hacemos promesas — entregamos resultados tangibles que reflejan nuestro compromiso con la excelencia.",
+    "DESC": "No solo hacemos promesas — entregamos resultados tangibles que reflejan nuestro compromiso con la excelencia en el comercio internacional.",
     "MARKETS": "Mercados internacionales",
     "EXPORTS": "Volumen anual de exportaciones",
     "PUNCTUALITY": "Tasa de entrega a tiempo"
@@ -51,26 +51,26 @@
     "TITLE": "Servicios internacionales",
     "TITLE_ACCENT": "integrales",
     "IMPORT_TITLE": "Importación al mercado egipcio",
-    "IMPORT_TEXT": "Una sólida red internacional que proporciona los mejores productos con alta calidad y precios competitivos.",
+    "IMPORT_TEXT": "Una sólida red internacional que proporciona los mejores productos con alta calidad y precios competitivos desde todos los rincones del mundo.",
     "EXPORT_TITLE": "Exportación desde Egipto",
-    "EXPORT_TEXT": "Nos comprometemos a proporcionar servicios de exportación profesionales seleccionando las mejores fábricas egipcias.",
+    "EXPORT_TEXT": "Nos comprometemos a ofrecer servicios de exportación profesionales seleccionando las mejores fábricas egipcias y garantizando la más alta calidad al mejor precio.",
     "PRODUCTS_TITLE": "Todos los productos que necesitas",
     "PRODUCTS_TEXT": "Una amplia gama de productos egipcios (electrodomésticos, alimentos, materias primas) según los más altos estándares internacionales.",
     "DISCOVER": "Descubrir más"
   },
   "WHY": {
-    "TITLE": "¿Por qué elegir",
+    "TITLE": "Por qué elegir",
     "TITLE_HIGHLIGHT": "Imdad?",
     "Q1_TITLE": "Calidad del producto",
-    "Q1_TEXT": "Ofrecemos productos egipcios de alta calidad que satisfacen precisamente las expectativas de los mercados globales.",
+    "Q1_TEXT": "Ofrecemos productos egipcios de alta calidad que satisfacen con precisión las expectativas y exigencias de los mercados globales.",
     "Q2_TITLE": "Precios competitivos",
-    "Q2_TEXT": "Proporcionamos productos a precios competitivos y bien estudiados, dando a nuestros clientes una ventaja real.",
+    "Q2_TEXT": "Proporcionamos productos a precios competitivos y bien estudiados, dando a nuestros clientes una ventaja real tanto en los mercados locales como internacionales.",
     "Q3_TITLE": "Entrega a tiempo",
-    "Q3_TEXT": "Precisión y velocidad en la entrega de envíos según el calendario acordado sin demoras.",
+    "Q3_TEXT": "Precisión y velocidad en la entrega de envíos según el calendario acordado y sin demoras.",
     "Q4_TITLE": "Equipo profesional",
-    "Q4_TEXT": "Nos apoyamos en expertos con amplia experiencia en comercio internacional y servicios logísticos.",
+    "Q4_TEXT": "Nos apoyamos en expertos con amplia y profunda experiencia en comercio internacional y servicios logísticos.",
     "Q5_TITLE": "Servicios integrales",
-    "Q5_TEXT": "Preparación de documentos de envío y provisión de diversos métodos de envío adaptados a cada cliente."
+    "Q5_TEXT": "Preparación de documentos de envío y provisión de diversos métodos de envío adaptados a las necesidades de cada cliente."
   },
   "ORDER": {
     "HERO_TITLE": "Pedir ahora",
@@ -88,7 +88,7 @@
     "SUBMIT": "Enviar pedido"
   },
   "CONTACT": {
-    "LABEL": "¿Tiene alguna pregunta? Estamos aquí para ayudarle.",
+    "LABEL": "Tiene alguna pregunta? Estamos aquí para ayudarle.",
     "TITLE": "Contáct",
     "TITLE_GOLD": "enos",
     "HQ_TITLE": "Sede central",
@@ -103,13 +103,13 @@
   "PRODUCTS": {
     "TITLE": "Guía de",
     "TITLE_HIGHLIGHT": "productos egipcios",
-    "DESC": "Debido a la fuerte presencia de <strong>Imdad Import & Export</strong> en el mercado egipcio, podemos proporcionar todos los productos egipcios requeridos para exportación a mercados globales:",
+    "DESC": "Gracias a la sólida presencia de <strong>Imdad Import & Export</strong> en el mercado egipcio y a sus altas capacidades administrativas, financieras y técnicas, podemos suministrar todos los productos egipcios necesarios para su exportación a los mercados globales, entre los más destacados:",
     "TAB_AGRI": "Agricultura & Alimentación",
     "TAB_ELEC": "Aparatos eléctricos",
     "TAB_BUILD": "Construcción & Acabado",
     "TAB_TEXTILE": "Textiles & Cuero",
     "TAB_MIX": "Industrias diversas",
-    "FOOTER_NOTE": "El equipo de <strong>Imdad Import & Export</strong> está listo y esperando que los clientes simplemente realicen su pedido con precisión, calidad y precios competitivos.",
+    "FOOTER_NOTE": "El equipo de <strong>Imdad Import & Export</strong> está listo y a la espera de que los clientes simplemente realicen su pedido. Comenzaremos de inmediato a atender solicitudes de cualquiera de los productos listados u otros, con precisión, calidad, precios competitivos y plazos de entrega récord, sin importar el tamaño del pedido.",
     "SUB": {
       "FRESH_FRUITS": "Frutas frescas",
       "DRIED": "Frutas secas",
@@ -156,12 +156,12 @@
       "MINT": "Menta",
       "SESAME": "Sésamo",
       "OLIVE": "Aceitunas & Aceite de oliva",
-      "SALT": "Sal & Tipos",
+      "SALT": "Sal & Variedades",
       "FANS_AC": "Ventiladores & Aires acondicionados",
       "WASHING_TV": "Lavadoras & Televisores",
       "BLENDER_COOKER": "Licuadoras & Cocinas",
       "IRON_VACUUM": "Planchas & Aspiradoras",
-      "HEATER_HOOD": "Calentadores & Campanas",
+      "HEATER_HOOD": "Calentadores & Campanas extractoras",
       "MARBLE": "Granito, Mármol & Yeso",
       "CERAMIC": "Cerámica, Porcelana & Vidrio",
       "METALS": "Hierro, Aluminio & Cables",
@@ -170,7 +170,7 @@
       "BAGS": "Bolsos",
       "BLANKETS": "Mantas",
       "WALLETS": "Carteras",
-      "HEADWEAR": "Sombreros",
+      "HEADWEAR": "Sombreros y tocados",
       "BELTS": "Cinturones",
       "SHOES": "Zapatos",
       "COTTON": "Algodón médico",
@@ -190,15 +190,223 @@
     "HERO_SUBTITLE": "Veinte años de experiencia, confianza renovada cada día",
     "WHO_TITLE": "Quiénes somos",
     "WHO_HEADING": "Liderando el mundo del comercio internacional",
-    "WHO_TEXT1": "Desde su fundación en 2006, <strong>Imdad</strong> se ha establecido como un nombre de confianza en los mercados egipcio e internacional.",
+    "WHO_TEXT1": "Desde su fundación en 2006, <strong>Imdad</strong> se ha consolidado como un nombre de confianza en los mercados egipcio e internacional. No empezamos desde cero — construimos sobre un historial profesional exitoso y una visión ambiciosa orientada a ofrecer un modelo de excelencia en el comercio global.",
     "WHO_PARTNERS_TITLE": "Nuestras exitosas asociaciones internacionales:",
     "WHO_PARTNER1": "Hamdan Trading Group (Egipto) — desde 2006",
     "WHO_PARTNER2": "Changzhou Hamdan International (China) — desde 2007",
     "WHO_PARTNER3": "Erwa Emlak (Turquía) — desde 2018",
-    "WHO_TEXT2": "La empresa se distingue por una sólida red internacional y un profundo conocimiento de los mercados de importación y exportación.",
+    "WHO_TEXT2": "La empresa se distingue por una sólida red internacional, experiencia acumulada y un profundo conocimiento de los mercados de importación y exportación, lo que le ha ganado la confianza de socios en numerosos países.",
     "VALUES_TITLE": "Nuestros valores fundamentales",
-    "VALUES_TEXT": "Operamos según los principios del <strong>comercio justo</strong>, con pleno compromiso con la transparencia y la cooperación.",
+    "VALUES_TEXT": "Operamos según los principios del <strong>comercio justo</strong>, con pleno compromiso con la transparencia y la cooperación para lograr el éxito mutuo, poniendo la satisfacción del cliente y la provisión de los mejores productos en el centro de nuestras prioridades.",
     "GOAL_TITLE": "Nuestro objetivo ambicioso",
-    "GOAL_TEXT": "Ser el <strong>socio de confianza</strong> que garantiza servicios altamente eficientes y facilita el flujo comercial entre mercados locales y globales."
+    "GOAL_TEXT": "Ser el <strong>socio de confianza</strong> que garantiza servicios altamente eficientes y facilita el flujo comercial entre los mercados locales y globales con una profesionalidad impecable."
+  },
+  "IMPORT_PAGE": {
+    "HERO_TITLE": "Soluciones de Importación Integradas",
+    "HERO_TITLE_ACCENT": "para el Mercado Egipcio",
+    "HERO_DESC": "Le conectamos con los mejores proveedores y nos encargamos de todo hasta la entrega",
+
+    "SERVICES_LABEL": "Lo Que Hacemos",
+    "SERVICES_TITLE": "Nuestros",
+    "SERVICES_TITLE_ACCENT": "Servicios Logísticos",
+
+    "PROCESS_LABEL": "Cómo Funciona",
+    "PROCESS_TITLE": "Pasos de Importación",
+    "PROCESS_TITLE_ACCENT": "Con Nosotros",
+
+    "CATALOG_LABEL": "Catálogo",
+    "CATALOG_TITLE": "Productos que Puede",
+    "CATALOG_TITLE_ACCENT": "Importar",
+
+    "WHY_TITLE": "Por qué elegir",
+    "WHY_TITLE_ACCENT": "Imdad?",
+    "WHY_1_TITLE": "Experiencia en el Mercado Egipcio",
+    "WHY_1_DESC": "Profundo conocimiento de los desafíos del mercado local para garantizar los mejores resultados para su negocio.",
+    "WHY_2_TITLE": "Reducción de Riesgos en la Importación",
+    "WHY_2_DESC": "Le protegemos verificando los proveedores y asegurando la calidad del producto antes del envío.",
+    "WHY_3_TITLE": "Transparencia Total de Costos",
+    "WHY_3_DESC": "Análisis de costos preciso e integral antes de comenzar, ajustado a su presupuesto.",
+
+    "FAQ_TITLE": "Preguntas",
+    "FAQ_TITLE_ACCENT": "Frecuentes",
+
+    "CTA_TITLE": "Listo para iniciar un",
+    "CTA_TITLE_ACCENT": "Proceso de Importación Exitoso?",
+    "CTA_DESC": "Déjenos los detalles y concéntrese en hacer crecer su negocio. Nuestro equipo está listo para apoyarle ahora mismo.",
+    "CTA_BTN": "Solicitar un Presupuesto",
+    "CTA_WHATSAPP": "O contáctenos por WhatsApp",
+
+    "SERVICES": {
+      "S1_TITLE": "Búsqueda de Proveedores",
+      "S1_DESC": "Encontramos las mejores fábricas en China, Turquía y más allá.",
+      "S2_TITLE": "Negociación de Precios",
+      "S2_DESC": "Negociamos directamente para conseguir el mejor precio posible.",
+      "S3_TITLE": "Inspección de Calidad",
+      "S3_DESC": "Inspección exhaustiva del producto antes del envío para garantizar la conformidad.",
+      "S4_TITLE": "Transporte Internacional",
+      "S4_DESC": "Soluciones completas de flete marítimo y aéreo.",
+      "S5_TITLE": "Despacho Aduanero",
+      "S5_DESC": "Despacho aduanero profesional y rápido dentro de Egipto.",
+      "S6_TITLE": "Entrega de Última Milla",
+      "S6_DESC": "Entregamos su mercancía directamente a la puerta de su almacén."
+    },
+
+    "STEPS": {
+      "STEP1": "Envíenos el producto o la idea",
+      "STEP2": "Le proporcionamos presupuestos de proveedores verificados",
+      "STEP3": "Usted elige la oferta adecuada",
+      "STEP4": "Inspeccionamos la calidad antes del envío",
+      "STEP5": "Realizamos el envío y el despacho aduanero",
+      "STEP6": "Usted recibe su mercancía lista para usar"
+    },
+
+    "CATALOG": {
+      "CAT1_NAME": "Automoción",
+      "CAT1_ITEM1": "Accesorios para coches (iluminación LED – equipamiento interior)",
+      "CAT1_ITEM2": "Pantallas Android para coche",
+      "CAT1_ITEM3": "Barras de techo y cofres portaequipajes",
+      "CAT1_ITEM4": "Ambientadores para coche",
+      "CAT1_ITEM5": "Arrancadores de emergencia y baterías de reserva",
+
+      "CAT2_NAME": "Energía Solar",
+      "CAT2_ITEM1": "Focos solares",
+      "CAT2_ITEM2": "Sistemas de energía solar para el hogar",
+      "CAT2_ITEM3": "Unidades de alumbrado público solar",
+      "CAT2_ITEM4": "Generadores solares y baterías portátiles",
+      "CAT2_ITEM5": "Iluminación solar para jardín",
+
+      "CAT3_NAME": "Electrodomésticos",
+      "CAT3_ITEM1": "Utensilios de cocina modernos",
+      "CAT3_ITEM2": "Productos de organización y almacenamiento",
+      "CAT3_ITEM3": "Utensilios de limpieza",
+      "CAT3_ITEM4": "Accesorios de baño",
+      "CAT3_ITEM5": "Decoración del hogar",
+
+      "CAT4_NAME": "Iluminación & Electricidad",
+      "CAT4_ITEM1": "Bombillas LED de bajo consumo",
+      "CAT4_ITEM2": "Sistemas de iluminación interior y exterior",
+      "CAT4_ITEM3": "Iluminación inteligente",
+      "CAT4_ITEM4": "Focos con sensor de movimiento",
+      "CAT4_ITEM5": "Unidades de iluminación industrial",
+
+      "CAT5_NAME": "Ropa & Bienes de Consumo",
+      "CAT5_ITEM1": "Ropa casual y deportiva",
+      "CAT5_ITEM2": "Bolsos y zapatos",
+      "CAT5_ITEM3": "Productos infantiles",
+
+      "CAT6_NAME": "Electrónica de Consumo",
+      "CAT6_ITEM1": "Auriculares Bluetooth",
+      "CAT6_ITEM2": "Accesorios para móvil",
+      "CAT6_ITEM3": "Baterías portátiles",
+      "CAT6_ITEM4": "Relojes inteligentes",
+      "CAT6_ITEM5": "Accesorios gaming",
+
+      "CAT7_NAME": "Herramientas & Equipos",
+      "CAT7_ITEM1": "Herramientas manuales y eléctricas",
+      "CAT7_ITEM2": "Herramientas de taller y mantenimiento",
+      "CAT7_ITEM3": "Pequeña maquinaria de construcción",
+      "CAT7_ITEM4": "Equipos de seguridad profesional",
+
+      "CAT8_NAME": "Productos para Mascotas",
+      "CAT8_ITEM1": "Accesorios para mascotas",
+      "CAT8_ITEM2": "Herramientas de aseo y limpieza",
+      "CAT8_ITEM3": "Dispensadores de comida",
+      "CAT8_ITEM4": "Juguetes para mascotas"
+    },
+
+    "FAQS": {
+      "Q1": "Cuál es la cantidad mínima de pedido?",
+      "A1": "Varía según el tipo de producto. Ofrecemos soluciones desde pequeñas cantidades hasta contenedores completos.",
+      "Q2": "Cómo se calcula el costo?",
+      "A2": "Incluye el costo del producto, el envío, los aranceles aduaneros y la comisión de gestión.",
+      "Q3": "Cuánto tarda el envío?",
+      "A3": "Depende del método de envío (marítimo o aéreo) y del país de origen, generalmente entre 10 y 45 días.",
+      "Q4": "Trabajan con particulares?",
+      "A4": "Sí, atendemos tanto a empresas como a particulares que desean iniciar su propio negocio."
+    }
+  },
+  "EXPORT_PAGE": {
+    "HERO_TITLE": "Exportación de Productos Egipcios",
+    "HERO_TITLE_ACCENT": "a los Mercados Globales",
+    "HERO_DESC": "Le ayudamos a exportar sus productos a los mercados globales de forma fácil y segura, de principio a fin.",
+
+    "SERVICES_LABEL": "Nuestros Servicios de Exportación",
+    "SERVICES_TITLE": "Soluciones Logísticas",
+    "SERVICES_TITLE_ACCENT": "Integrales",
+
+    "PROCESS_LABEL": "Cómo Funciona",
+    "PROCESS_TITLE": "El Recorrido de su Producto",
+    "PROCESS_TITLE_ACCENT": "De Egipto al Mundo",
+
+    "CATALOG_LABEL": "Catálogo Egipcio",
+    "CATALOG_TITLE": "Los Mejores Productos",
+    "CATALOG_TITLE_ACCENT": "Listos para Exportar",
+
+    "WHY_TITLE": "Por qué elegir",
+    "WHY_TITLE_ACCENT": "Imdad?",
+    "WHY_1_TITLE": "Red de Proveedores de Confianza",
+    "WHY_1_DESC": "Trabajamos con las mejores fábricas egipcias para garantizarle un producto del que pueda enorgullecerse a nivel mundial.",
+    "WHY_2_TITLE": "Cumplimiento de Normativas",
+    "WHY_2_DESC": "Garantizamos que todos los envíos cumplen las especificaciones internacionales y los estándares de calidad globales.",
+    "WHY_3_TITLE": "Precios Competitivos",
+    "WHY_3_DESC": "Ofrecemos las mejores condiciones de envío y logística para maximizar sus márgenes de beneficio.",
+
+    "CTA_TITLE": "Listo para abrir un",
+    "CTA_TITLE_ACCENT": "Mercado Global para su Producto?",
+    "CTA_DESC": "Comience a expandir su negocio y a llegar a los mercados globales con servicios de exportación profesionales.",
+    "CTA_BTN": "Solicitar Presupuesto de Exportación",
+    "CTA_WHATSAPP": "O contáctenos por WhatsApp",
+
+    "SERVICES": {
+      "S1_TITLE": "Abastecimiento de Productos",
+      "S1_DESC": "Suministro de productos egipcios de alta calidad de proveedores y fábricas de confianza.",
+      "S2_TITLE": "Preparación de Documentos",
+      "S2_DESC": "Elaboración de facturas, listas de empaque, certificados de origen y estándares internacionales.",
+      "S3_TITLE": "Embalaje",
+      "S3_DESC": "Embalaje profesional según normas internacionales para garantizar la seguridad del producto.",
+      "S4_TITLE": "Transporte Internacional",
+      "S4_DESC": "Soluciones de envío internacional completas (marítimo y aéreo) a los mejores precios.",
+      "S5_TITLE": "Despacho Aduanero",
+      "S5_DESC": "Tramitación de todos los procedimientos aduaneros para garantizar una salida rápida y sin contratiempos.",
+      "S6_TITLE": "Seguimiento del Envío",
+      "S6_DESC": "Seguimiento preciso del envío desde la salida hasta la entrega al cliente final."
+    },
+
+    "STEPS": {
+      "STEP1": "Identificación del producto y el mercado objetivo con detalle.",
+      "STEP2": "Búsqueda de los proveedores o fábricas adecuados para su pedido.",
+      "STEP3": "Preparación de toda la documentación requerida y los trámites legales.",
+      "STEP4": "Inicio de las operaciones de embalaje según las especificaciones.",
+      "STEP5": "Ejecución del envío final y tramitación del despacho aduanero.",
+      "STEP6": "Entrega del envío al cliente en su destino final."
+    },
+
+    "CATALOG": {
+      "CAT1_NAME": "Materiales de Construcción",
+      "CAT1_ITEM1": "Mármol & Granito",
+      "CAT1_ITEM2": "Cerámica & Porcelana",
+      "CAT1_ITEM3": "Cemento & Acero",
+
+      "CAT2_NAME": "Productos Agrícolas",
+      "CAT2_ITEM1": "Verduras & Frutas",
+      "CAT2_ITEM2": "Dátiles Egipcios",
+      "CAT2_ITEM3": "Patatas & Cebollas",
+      "CAT2_ITEM4": "Hierbas & Especias",
+
+      "CAT3_NAME": "Textiles & Confección",
+      "CAT3_ITEM1": "Ropa de Algodón",
+      "CAT3_ITEM2": "Textiles para el Hogar",
+      "CAT3_ITEM3": "Telas Premium",
+
+      "CAT4_NAME": "Industrias Químicas",
+      "CAT4_ITEM1": "Productos de Limpieza",
+      "CAT4_ITEM2": "Productos Plásticos",
+      "CAT4_ITEM3": "Fertilizantes Agrícolas",
+
+      "CAT5_NAME": "Muebles & Carpintería",
+      "CAT5_ITEM1": "Muebles para el Hogar",
+      "CAT5_ITEM2": "Muebles de Oficina",
+      "CAT5_ITEM3": "Decoración en Madera"
+    }
   }
 }

@@ -6,13 +6,23 @@
                 class="shape-fill"></path>
         </svg>
     </div>
+
     <div class="container pt-5 pb-4">
         <div class="row align-items-center mt-3">
+
+            <!-- Logo + Description -->
             <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                 <div class="d-flex align-items-center gap-3">
-                    <img src="../../../assets/images/imdad-logo-footer.png" alt="Around The World" class="footer-logo">
-                    <p class="brand-bio-text mb-0">{{ 'FOOTER.DESC' | translate }}</p>
+                    <img src="../../../assets/images/imdad-logo-footer.png"
+                         alt="Imdad"
+                         class="footer-logo">
+
+                    <p class="brand-bio-text mb-0">
+                        {{ 'FOOTER.DESC' | translate }}
+                    </p>
                 </div>
+
+                <!-- Social -->
                 <div class="social-links-premium mt-3">
                     <a href="#" class="s-link"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="s-link"><i class="fab fa-linkedin-in"></i></a>
@@ -20,36 +30,75 @@
                     <a href="#" class="s-link"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
+
+            <!-- Links -->
             <div class="col-lg-8 col-12">
                 <div class="footer-links-grid">
+
+                    <!-- Company -->
                     <div class="links-group">
                         <h5>{{ 'FOOTER.COMPANY' | translate }}</h5>
                         <ul>
-                            <li><a routerLink="/about">{{ 'FOOTER.ABOUT' | translate }}</a></li>
-                            <li><a routerLink="/contact">{{ 'FOOTER.CONTACT' | translate }}</a></li>
+                            <li>
+                                <a routerLink="/about">
+                                    {{ 'FOOTER.ABOUT' | translate }}
+                                </a>
+                            </li>
+                            <li>
+                                <a routerLink="/contact">
+                                    {{ 'FOOTER.CONTACT' | translate }}
+                                </a>
+                            </li>
                         </ul>
                     </div>
+
+                    <!-- Services -->
                     <div class="links-group">
                         <h5>{{ 'FOOTER.SERVICES' | translate }}</h5>
                         <ul>
-                            <li><a routerLink="/import">{{ 'FOOTER.IMPORT' | translate }}</a></li>
-                            <li><a routerLink="/export">{{ 'FOOTER.EXPORT' | translate }}</a></li>
+                            <li>
+                                <a routerLink="/import-egypt">
+                                    {{ 'FOOTER.IMPORT' | translate }}
+                                </a>
+                            </li>
+                            <li>
+                                <a routerLink="/export-egypt">
+                                    {{ 'FOOTER.EXPORT' | translate }}
+                                </a>
+                            </li>
                         </ul>
                     </div>
+
+                    <!-- More -->
                     <div class="links-group">
                         <h5>{{ 'FOOTER.MORE' | translate }}</h5>
                         <ul>
-                            <li><a routerLink="/products">{{ 'FOOTER.PRODUCTS' | translate }}</a></li>
-                            <li><a routerLink="/order">{{ 'FOOTER.ORDER' | translate }}</a></li>
+                            <li>
+                                <a routerLink="/products">
+                                    {{ 'FOOTER.PRODUCTS' | translate }}
+                                </a>
+                            </li>
+                            <li>
+                                <a routerLink="/order">
+                                    {{ 'FOOTER.ORDER' | translate }}
+                                </a>
+                            </li>
                         </ul>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </div>
+
+    <!-- Bottom -->
     <div class="footer-bottom mt-5">
         <div class="container">
-            <p class="mb-0 py-1" style="font-size: 11px; color: #718096; text-align: center;">{{ 'FOOTER.RIGHTS' | translate }}</p>
+            <p class="mb-0 py-1 text-center"
+               style="font-size: 11px; color: #718096;">
+                {{ 'FOOTER.RIGHTS' | translate }}
+            </p>
         </div>
     </div>
 </footer>

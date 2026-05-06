@@ -26,8 +26,8 @@
           <i [class]="s.icon"></i>
         </div>
         <div class="svc-content">
-          <h3>{{ s.title }}</h3>
-          <p>{{ s.desc }}</p>
+          <h3>{{ s.title | translate }}</h3>
+          <p>{{ s.desc | translate }}</p>
         </div>
         <div class="card-footer-line"></div>
       </div>
@@ -58,7 +58,7 @@
               <div class="vertical-path" *ngIf="i !== workSteps.length - 1"></div>
             </div>
             <div class="step-content-box">
-              <p>{{ step }}</p>
+              <p>{{ step | translate }}</p>
             </div>
           </div>
         </div>
@@ -80,17 +80,17 @@
       <!-- الكارت الكريتيف -->
       <div class="premium-prod-card" *ngFor="let cat of productCatalog">
         <div class="prod-visual">
-          <img [src]="cat.image" [alt]="cat.name" class="img-fluid">
+          <img [src]="cat.image" [alt]="cat.name | translate" class="img-fluid">
           <div class="prod-gradient-overlay"></div>
           <div class="category-icon-badge">{{ cat.icon }}</div>
         </div>
         
         <div class="prod-details">
-          <h3 class="prod-title">{{ cat.name }}</h3>
+          <h3 class="prod-title">{{ cat.name | translate }}</h3>
           <div class="prod-tags-scroll">
             <ul class="clean-tags-list">
               <li *ngFor="let item of cat.items">
-                <span class="bullet"></span> {{ item }}
+                <span class="bullet"></span> {{ item | translate }}
               </li>
             </ul>
           </div>
@@ -166,7 +166,7 @@
       <div class="faq-item-v3" *ngFor="let f of faqs; let i = index" [class.is-active]="f.open">
         <!-- منطقة السؤال -->
         <div class="faq-question-v3" (click)="f.open = !f.open">
-          <h3>{{ f.q }}</h3>
+          <h3>{{ f.q | translate }}</h3>
           <span class="chevron-v3">
             <i class="fas fa-chevron-down"></i>
           </span>
@@ -174,7 +174,7 @@
         <!-- منطقة الإجابة -->
         <div class="faq-answer-v3" [class.show]="f.open">
           <div class="answer-content-v3">
-            {{ f.a }}
+            {{ f.a | translate }}
           </div>
         </div>
       </div>
@@ -191,7 +191,7 @@
     <div class="cta-wrapper-v3">
       
       <div class="cta-text-side">
-        <h2 class="cta-title-v3">{{ 'IMPORT_PAGE.CTA_TITLE' | translate }} <span class="accent-text">{{ 'IMPORT_PAGE.CTA_TITLE_ACCENT' | translate }}</span></h2>
+        <h3 class="cta-title-v3">{{ 'IMPORT_PAGE.CTA_TITLE' | translate }} <span class="accent-text">{{ 'IMPORT_PAGE.CTA_TITLE_ACCENT' | translate }}</span></h3>
         <p class="cta-p-v3">{{ 'IMPORT_PAGE.CTA_DESC' | translate }}</p>
       </div>
 
