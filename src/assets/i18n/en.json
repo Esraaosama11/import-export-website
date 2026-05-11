@@ -21,13 +21,13 @@
     "ORDER": "Order Now",
     "RIGHTS": "All Rights Reserved © 2026 Imdad Import & Export Co."
   },
-  "HERO": {
-    "TITLE": "We Move Your Trade",
-    "TITLE_ACCENT": "To Every Corner of the World",
-    "SUBTITLE": "Import and export of all food and industrial products with complete safety",
-    "START": "Get Started",
-    "CONTACT": "Contact Us"
-  },
+ "HERO": {
+  "TITLE": "Imdad Delivers Your Trade",
+  "TITLE_ACCENT": "Across Global Markets",
+  "SUBTITLE": "Imdad provides trusted import, export, and logistics solutions for food, industrial, and commercial products worldwide.",
+  "START": "Get Started",
+  "CONTACT": "Contact Us"
+},
   "ABOUT": {
     "SUBTITLE": "About Us",
     "TITLE": "Your Trusted Partner in",
@@ -185,7 +185,6 @@
     }
   },
   "ABOUT_PAGE": {
-    "BREADCRUMB_CURRENT": "About Our Company",
     "HERO_TITLE": "Imdad Import & Export",
     "HERO_SUBTITLE": "Twenty years of expertise, trust renewed every day",
     "WHO_TITLE": "Who We Are",
