@@ -155,6 +155,45 @@
   border-radius: 10px;
 }
 
+/* تنسيق كروت القطاعات */
+.sector-card {
+  background: #fff;
+  padding: 30px 15px;
+  border-radius: 20px;
+  border-bottom: 4px solid #f8f9fa;
+  transition: all 0.4s ease;
+  height: 100%;
+}
+
+.sector-card:hover {
+  transform: translateY(-10px);
+  border-bottom-color: #ff8c00;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.sector-card.highlighted {
+  background: linear-gradient(135deg, #1e3a5f, #2a5298);
+}
+
+.cta-premium .glass-effect {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-orange {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: #e67e00;
+  transform: scale(1.05);
+  color: white;
+}
+ 
+
 @media (min-width: 992px) {
   .translate-up {
     margin-top: 80px;
@@ -355,3 +394,274 @@
   }
 
 }
+
+.section-who-we-are {
+  background-color: #f1f1f1 !important;
+  padding: 80px 0;
+}
+
+/* --- تصميم القطاعات الحديث V2 --- */
+.sectors-section {
+  background-color: #ffffff; /* الخلفية البيضاء حسب طلبك السابق */
+}
+
+.modern-sector-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s ease;
+  padding: 20px;
+}
+
+/* تأثير الدائرة حول الأيقونة */
+.modern-sector-item .icon-wrapper {
+  width: 90px;
+  height: 90px;
+  background: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #1E3A5F;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.modern-sector-item .sector-name {
+  font-weight: 600;
+  color: #1E3A5F;
+  font-size: 1rem;
+}
+
+/* حركة الماوس (Hover) */
+.modern-sector-item:hover {
+  transform: translateY(-8px);
+}
+
+.modern-sector-item:hover .icon-wrapper {
+  background-color: #FF8C00;
+  color: white;
+  box-shadow: 0 10px 20px rgba(255, 140, 0, 0.3) !important;
+}
+
+/* --- تنسيق الزر الاحترافي --- */
+.btn-explore-all {
+  background: #1E3A5F;
+  color: white;
+  border: none;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(30, 58, 95, 0.2);
+}
+
+.btn-explore-all:hover {
+  background: #FF8C00;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(255, 140, 0, 0.4);
+}
+
+.btn-explore-all i {
+  transition: transform 0.3s ease;
+}
+
+.btn-explore-all:hover i {
+  transform: translateX(-5px); /* حركة السهم عند الماوس */
+}
+.creative-vision {
+  background-color: #f1f1f1 !important;
+  padding: 100px 0;
+}
+
+ 
+.text-blue {
+  color: #1E3A5F !important;
+}
+
+.text-orange {
+  color: #FF8C00 !important;
+}
+
+.bg-blue {
+  background-color: #1E3A5F !important;
+}
+
+.bg-orange {
+  background-color: #FF8C00 !important;
+}
+
+.sector-card {
+  background: #ffffff;
+  padding: 30px 15px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  transition: all 0.4s ease;
+  height: 100%;
+}
+
+.sector-card:hover {
+  transform: translateY(-10px);
+  border-bottom: 4px solid #ff8c00;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+.sector-card.highlighted {
+  background: linear-gradient(135deg, #1e3a5f, #2a5298);
+  border: none;
+}
+
+.vision-box {
+  background: white !important;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+}
+
+.vision-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+.hero-main-text,
+.hero-sub-text {
+  animation: smoothFloat 4s ease-in-out infinite alternate;
+}
+
+@keyframes smoothFloat {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 991px) {
+
+  .section-who-we-are,
+  .sectors-section,
+  .creative-vision,
+  .imdad-cta-creative {
+    padding: 60px 0 !important;
+  }
+
+  .vision-box {
+    margin-bottom: 60px;
+  }
+}
+
+ .imdad-cta-creative {
+     position: relative;
+     background: #ffffff;
+     overflow: hidden;
+     padding: 120px 0;
+ }
+
+ .blob-bg {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 500px;
+     height: 500px;
+     background: radial-gradient(circle, rgba(255, 140, 0, 0.05) 0%, rgba(0, 51, 102, 0.03) 50%, transparent 70%);
+     filter: blur(50px);
+     z-index: 1;
+ }
+
+ .cta-wrapper-v3 {
+     position: relative;
+     z-index: 2;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 50px;
+ }
+
+ .cta-text-side {
+     flex: 1;
+ }
+
+ .cta-title-v3 {
+     font-size: 3rem;
+     font-weight: 900;
+     color: #003366;
+     line-height: 1.2;
+     margin-bottom: 20px;
+ }
+
+ .accent-text {
+     color: #FF8C00;
+     position: relative;
+     display: inline-block;
+ }
+
+ .accent-text::after {
+     content: "";
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 100%;
+     height: 8px;
+     background: rgba(255, 140, 0, 0.2);
+     border-radius: 10px;
+ }
+
+ .cta-p-v3 {
+     font-size: 1.2rem;
+     color: #64748b;
+     max-width: 500px;
+ }
+
+ .cta-action-side {
+     flex-shrink: 0;
+ }
+
+ .btn-stack {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+ }
+
+ .cta-btn-primary {
+     background: #003366;
+     color: #fff;
+     border: none;
+     padding: 20px 50px;
+     border-radius: 50px;
+     font-size: 1.2rem;
+     font-weight: 700;
+     cursor: pointer;
+     position: relative;
+     overflow: hidden;
+     transition: 0.4s;
+     box-shadow: 0 20px 40px rgba(0, 51, 102, 0.15);
+ }
+
+ .cta-btn-primary:hover {
+     transform: scale(1.05);
+     background: #FF8C00;
+     box-shadow: 0 20px 40px rgba(255, 140, 0, 0.2);
+ }
+
+ .cta-link-wa {
+     color: #25D366;
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 1rem;
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     transition: 0.3s;
+ }
+
+ .cta-link-wa:hover {
+     letter-spacing: 0.5px;
+     opacity: 0.8;
+ }
+ 

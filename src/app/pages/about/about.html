@@ -3,16 +3,12 @@
   style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../assets/images/من نحن.png');">
   
   <div class="container-fluid px-3 position-relative z-1">
-    <!-- العنوان الرئيسي مع تأثير حرفي -->
     <h1 class="display-4 fw-bold text-white mt-3 hero-main-text">
       {{ 'ABOUT_PAGE.HERO_TITLE' | translate }}
     </h1>
     
-    <!-- خط ديكور صغير وهادئ -->
     <div class="minimal-line"></div>
-    
-    <!-- العنوان الفرعي -->
-    <p class="lead text-white fs-4 fw-light hero-sub-text">
+        <p class="lead text-white fs-4 fw-light hero-sub-text">
       {{ 'ABOUT_PAGE.HERO_SUBTITLE' | translate }}
     </p>
   </div>
@@ -26,7 +22,7 @@
 
         <div class="col-lg-6 order-lg-2">
           <div class="about-image-stack">
-            <img src="../../../assets/images/lll.png" alt="تجارة دولية"
+            <img src="../../../assets/images/shrkana.jpg" alt="تجارة دولية"
               class="img-main rounded-4 shadow">
 
             <div class="img-accent-box shadow-lg rounded-4">
@@ -77,10 +73,70 @@
 
     </div>
   </section>
+<!-- قسم قطاعات الأعمال بتصميم عصري -->
+<section class="sectors-section py-5">
+  <div class="container px-4 px-lg-5 text-center">
+    <h2 class="display-6 fw-bold text-blue mb-2">قطاعات أعمالنا</h2>
+    <p class="text-secondary mb-5 fw-light">تنوع وخبرة تغطي احتياجات الأسواق العالمية</p>
+    
+    <div class="row g-4 justify-content-center mb-5">
+      <!-- إكسسوارات السيارات -->
+      <div class="col-md-4 col-lg-2">
+        <div class="modern-sector-item">
+          <div class="icon-wrapper shadow-sm">
+            <i class="fas fa-car"></i>
+          </div>
+          <span class="sector-name">إكسسوارات السيارات</span>
+        </div>
+      </div>
+      <!-- منتجات الطاقة الشمسية -->
+      <div class="col-md-4 col-lg-2">
+        <div class="modern-sector-item">
+          <div class="icon-wrapper shadow-sm">
+            <i class="fas fa-solar-panel"></i>
+          </div>
+          <span class="sector-name">الطاقة الشمسية</span>
+        </div>
+      </div>
+      <!-- الإلكترونيات الخفيفة -->
+      <div class="col-md-4 col-lg-2">
+        <div class="modern-sector-item">
+          <div class="icon-wrapper shadow-sm">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <span class="sector-name">إلكترونيات خفيفة</span>
+        </div>
+      </div>
+      <!-- الأدوات المنزلية -->
+      <div class="col-md-4 col-lg-2">
+        <div class="modern-sector-item">
+          <div class="icon-wrapper shadow-sm">
+            <i class="fas fa-home"></i>
+          </div>
+          <span class="sector-name">أدوات منزلية</span>
+        </div>
+      </div>
+      <!-- الإضاءة والكهرباء -->
+      <div class="col-md-4 col-lg-2">
+        <div class="modern-sector-item">
+          <div class="icon-wrapper shadow-sm">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <span class="sector-name">إضاءة وكهرباء</span>
+        </div>
+      </div>
+    </div>
 
-  <!-- Vision Section -->
+    <!-- الزر الجديد للذهاب لصفحة المنتجات -->
+    <div class="mt-5">
+      <a routerLink="/products" class="btn btn-explore-all px-5 py-3 rounded-pill">
+        <span>تصفح كافة المنتجات</span>
+        <i class="fas fa-chevron-left ms-2"></i>
+      </a>
+    </div>
+  </div>
+</section>
   <section class="creative-vision pt-3 pb-5" dir="rtl">
-
   <div class="container-fluid px-3 px-lg-5 py-3">
       <div class="row align-items-center g-0">
 
@@ -139,4 +195,33 @@
 
   </section>
 
+<section class="imdad-cta-creative py-100">
+  <div class="blob-bg"></div>
+  
+  <div class="container">
+    <div class="cta-wrapper-v3">
+      
+      <div class="cta-text-side">
+         
+        <h2 class="cta-title-v3">
+          ابدأ أعمالك <span class="accent-text">معنا</span>
+        </h2>
+        <p class="cta-p-v3">
+          نسعى دائمًا لبناء علاقات طويلة الأمد قائمة على الثقة والنجاح المشترك.
+        </p>
+      </div>
+
+      <div class="cta-action-side">
+        <div class="btn-stack">
+          <button class="cta-btn-primary">
+            تواصل معنا الآن
+            <div class="btn-glow"></div>
+          </button>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 </section>
