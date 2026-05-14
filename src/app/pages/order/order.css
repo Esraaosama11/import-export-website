@@ -163,8 +163,7 @@
   border-radius: 10px;
 }
 
-/* ===== TABLET ===== */
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
   .order-header-wrapper {
     height: 400px;
   }
@@ -198,8 +197,7 @@
   }
 }
 
-/* ===== MOBILE ===== */
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
   .order-header-wrapper {
     height: 320px;
   }
@@ -270,8 +268,7 @@
   }
 }
 
-/* ===== SMALL MOBILE ===== */
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
   .order-header-wrapper {
     height: 280px;
   }

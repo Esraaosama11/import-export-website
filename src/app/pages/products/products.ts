@@ -19,8 +19,7 @@ interface Product {
 export class Products {
   activeTab: string = 'agri';
 allProducts: Product[] = [
-  // --- Agriculture ---
-  { category: 'agri', sub: 'PRODUCTS.SUB.FRESH_FRUITS', name: 'PRODUCTS.ITEM.STRAWBERRY', img: 'assets/images/s.jpg' },
+   { category: 'agri', sub: 'PRODUCTS.SUB.FRESH_FRUITS', name: 'PRODUCTS.ITEM.STRAWBERRY', img: 'assets/images/s.jpg' },
   { category: 'agri', sub: 'PRODUCTS.SUB.FRESH_FRUITS', name: 'PRODUCTS.ITEM.ORANGE', img: 'assets/images/o.jpg' },
   { category: 'agri', sub: 'PRODUCTS.SUB.FRESH_FRUITS', name: 'PRODUCTS.ITEM.GUAVA', img: 'assets/images/g.jpeg' },
   { category: 'agri', sub: 'PRODUCTS.SUB.FRESH_FRUITS', name: 'PRODUCTS.ITEM.POMEGRANATE', img: 'assets/images/ر.jpg' },
@@ -47,21 +46,18 @@ allProducts: Product[] = [
   { category: 'agri', sub: 'PRODUCTS.SUB.OILS', name: 'PRODUCTS.ITEM.OLIVE', img: 'assets/images/ز.jpg' },
   { category: 'agri', sub: 'PRODUCTS.SUB.SALT', name: 'PRODUCTS.ITEM.SALT', img: 'assets/images/ملح.jpg' },
 
-  // --- Electrical ---
-  { category: 'elec', sub: 'PRODUCTS.SUB.COOLING', name: 'PRODUCTS.ITEM.FANS_AC', img: 'assets/images/ت.png' },
+   { category: 'elec', sub: 'PRODUCTS.SUB.COOLING', name: 'PRODUCTS.ITEM.FANS_AC', img: 'assets/images/ت.png' },
   { category: 'elec', sub: 'PRODUCTS.SUB.LARGE', name: 'PRODUCTS.ITEM.WASHING_TV', img: 'assets/images/رر.png' },
   { category: 'elec', sub: 'PRODUCTS.SUB.KITCHEN', name: 'PRODUCTS.ITEM.BLENDER_COOKER', img: 'assets/images/دد.png' },
   { category: 'elec', sub: 'PRODUCTS.SUB.SMALL', name: 'PRODUCTS.ITEM.IRON_VACUUM', img: 'assets/images/للل.png' },
   { category: 'elec', sub: 'PRODUCTS.SUB.SMALL', name: 'PRODUCTS.ITEM.HEATER_HOOD', img: 'assets/images/صص.png' },
 
-  // --- Build ---
-  { category: 'build', sub: 'PRODUCTS.SUB.MARBLE', name: 'PRODUCTS.ITEM.MARBLE', img: 'assets/images/رخام.jpg' },
+   { category: 'build', sub: 'PRODUCTS.SUB.MARBLE', name: 'PRODUCTS.ITEM.MARBLE', img: 'assets/images/رخام.jpg' },
   { category: 'build', sub: 'PRODUCTS.SUB.FINISH', name: 'PRODUCTS.ITEM.CERAMIC', img: 'assets/images/ثثث.png' },
   { category: 'build', sub: 'PRODUCTS.SUB.METAL', name: 'PRODUCTS.ITEM.METALS', img: 'assets/images/كك.png' },
   { category: 'build', sub: 'PRODUCTS.SUB.OTHER', name: 'PRODUCTS.ITEM.COAL', img: 'assets/images/ضضض.png' },
 
-  // --- Textile ---
-  { category: 'textile', sub: 'PRODUCTS.SUB.CLOTHES', name: 'PRODUCTS.ITEM.CLOTHES', img: 'assets/images/قق.png' },
+   { category: 'textile', sub: 'PRODUCTS.SUB.CLOTHES', name: 'PRODUCTS.ITEM.CLOTHES', img: 'assets/images/قق.png' },
   { category: 'textile', sub: 'PRODUCTS.SUB.LEATHER', name: 'PRODUCTS.ITEM.BAGS', img: 'assets/images/شنط.jpg' },
   { category: 'textile', sub: 'PRODUCTS.SUB.CLOTHES', name: 'PRODUCTS.ITEM.BLANKETS', img: 'assets/images/بطاطين.png' },
   { category: 'textile', sub: 'PRODUCTS.SUB.LEATHER', name: 'PRODUCTS.ITEM.WALLETS', img: 'assets/images/سسس.jpg' },
@@ -73,8 +69,7 @@ allProducts: Product[] = [
   { category: 'textile', sub: 'PRODUCTS.SUB.MEDICAL', name: 'PRODUCTS.ITEM.GAUZE', img: 'assets/images/شاش.png' },
   { category: 'textile', sub: 'PRODUCTS.SUB.MEDICAL', name: 'PRODUCTS.ITEM.BANDAGES', img: 'assets/images/ضغط.png' },
 
-  // --- Mix ---
-  { category: 'mix', sub: 'PRODUCTS.SUB.CHEMICALS', name: 'PRODUCTS.ITEM.PETRO', img: 'assets/images/زززز.png' },
+   { category: 'mix', sub: 'PRODUCTS.SUB.CHEMICALS', name: 'PRODUCTS.ITEM.PETRO', img: 'assets/images/زززز.png' },
   { category: 'mix', sub: 'PRODUCTS.SUB.CLEANING', name: 'PRODUCTS.ITEM.CLEANING', img: 'assets/images/ثثثث.png' },
   { category: 'mix', sub: 'PRODUCTS.SUB.FURNITURE', name: 'PRODUCTS.ITEM.FURNITURE', img: 'assets/images/شششششش.png' },
   { category: 'mix', sub: 'PRODUCTS.SUB.KITCHEN', name: 'PRODUCTS.ITEM.KITCHEN', img: 'assets/images/ففف.png' },

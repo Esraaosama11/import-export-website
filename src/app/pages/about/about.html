@@ -3,12 +3,12 @@
   style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../assets/images/من نحن.png');">
   
   <div class="container-fluid px-3 position-relative z-1">
-    <h1 class="display-4 fw-bold text-white mt-3 hero-main-text">
+    <h3 class="display-4 fw-bold text-white mt-3">
       {{ 'ABOUT_PAGE.HERO_TITLE' | translate }}
-    </h1>
+    </h3>
     
     <div class="minimal-line"></div>
-        <p class="lead text-white fs-4 fw-light hero-sub-text">
+    <p class="lead text-white fs-4 fw-light">
       {{ 'ABOUT_PAGE.HERO_SUBTITLE' | translate }}
     </p>
   </div>
@@ -73,74 +73,76 @@
 
     </div>
   </section>
-<!-- قسم قطاعات الأعمال بتصميم عصري -->
-<section class="sectors-section py-5">
-  <div class="container px-4 px-lg-5 text-center">
-    <h2 class="display-6 fw-bold text-blue mb-2">قطاعات أعمالنا</h2>
-    <p class="text-secondary mb-5 fw-light">تنوع وخبرة تغطي احتياجات الأسواق العالمية</p>
-    
-    <div class="row g-4 justify-content-center mb-5">
-      <!-- إكسسوارات السيارات -->
-      <div class="col-md-4 col-lg-2">
-        <div class="modern-sector-item">
-          <div class="icon-wrapper shadow-sm">
-            <i class="fas fa-car"></i>
-          </div>
-          <span class="sector-name">إكسسوارات السيارات</span>
-        </div>
-      </div>
-      <!-- منتجات الطاقة الشمسية -->
-      <div class="col-md-4 col-lg-2">
-        <div class="modern-sector-item">
-          <div class="icon-wrapper shadow-sm">
-            <i class="fas fa-solar-panel"></i>
-          </div>
-          <span class="sector-name">الطاقة الشمسية</span>
-        </div>
-      </div>
-      <!-- الإلكترونيات الخفيفة -->
-      <div class="col-md-4 col-lg-2">
-        <div class="modern-sector-item">
-          <div class="icon-wrapper shadow-sm">
-            <i class="fas fa-microchip"></i>
-          </div>
-          <span class="sector-name">إلكترونيات خفيفة</span>
-        </div>
-      </div>
-      <!-- الأدوات المنزلية -->
-      <div class="col-md-4 col-lg-2">
-        <div class="modern-sector-item">
-          <div class="icon-wrapper shadow-sm">
-            <i class="fas fa-home"></i>
-          </div>
-          <span class="sector-name">أدوات منزلية</span>
-        </div>
-      </div>
-      <!-- الإضاءة والكهرباء -->
-      <div class="col-md-4 col-lg-2">
-        <div class="modern-sector-item">
-          <div class="icon-wrapper shadow-sm">
-            <i class="fas fa-lightbulb"></i>
-          </div>
-          <span class="sector-name">إضاءة وكهرباء</span>
-        </div>
-      </div>
-    </div>
 
-    <!-- الزر الجديد للذهاب لصفحة المنتجات -->
-    <div class="mt-5">
-      <a routerLink="/products" class="btn btn-explore-all px-5 py-3 rounded-pill">
-        <span>تصفح كافة المنتجات</span>
-        <i class="fas fa-chevron-left ms-2"></i>
-      </a>
+  <section class="sectors-section py-5">
+    <div class="container px-4 px-lg-5 text-center">
+      <h2 class="display-6 fw-bold text-blue mb-2">
+        {{ 'ABOUT_PAGE.SECTORS_TITLE' | translate }}
+      </h2>
+      <p class="text-secondary mb-5 fw-light">
+        {{ 'ABOUT_PAGE.SECTORS_SUBTITLE' | translate }}
+      </p>
+
+      <div class="row g-4 justify-content-center mb-5">
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="modern-sector-item">
+            <div class="icon-wrapper shadow-sm">
+              <i class="fas fa-car"></i>
+            </div>
+            <span class="sector-name">{{ 'ABOUT_PAGE.SECTOR_CARS' | translate }}</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="modern-sector-item">
+            <div class="icon-wrapper shadow-sm">
+              <i class="fas fa-solar-panel"></i>
+            </div>
+            <span class="sector-name">{{ 'ABOUT_PAGE.SECTOR_SOLAR' | translate }}</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="modern-sector-item">
+            <div class="icon-wrapper shadow-sm">
+              <i class="fas fa-microchip"></i>
+            </div>
+            <span class="sector-name">{{ 'ABOUT_PAGE.SECTOR_ELECTRONICS' | translate }}</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="modern-sector-item">
+            <div class="icon-wrapper shadow-sm">
+              <i class="fas fa-home"></i>
+            </div>
+            <span class="sector-name">{{ 'ABOUT_PAGE.SECTOR_HOME' | translate }}</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="modern-sector-item">
+            <div class="icon-wrapper shadow-sm">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <span class="sector-name">{{ 'ABOUT_PAGE.SECTOR_LIGHTING' | translate }}</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-5">
+        <a routerLink="/products" class="btn btn-explore-all px-5 py-3 rounded-pill">
+          <span>{{ 'ABOUT_PAGE.SECTORS_BTN' | translate }}</span>
+          <i class="fas fa-chevron-left ms-2"></i>
+        </a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
   <section class="creative-vision pt-3 pb-5" dir="rtl">
-  <div class="container-fluid px-3 px-lg-5 py-3">
+    <div class="container-fluid px-3 px-lg-5 py-3">
       <div class="row align-items-center g-0">
-
-        <!-- القيم -->
         <div class="col-lg-5 position-relative z-2">
           <div class="vision-box glass-effect p-5 shadow-lg border-right-custom">
 
@@ -159,8 +161,6 @@
             <div class="decor-line bg-blue"></div>
           </div>
         </div>
-
-        <!-- الوسط -->
         <div class="col-lg-2 d-none d-lg-flex justify-content-center z-1">
           <div class="center-connector">
             <div class="dot pulse-blue"></div>
@@ -168,8 +168,6 @@
             <div class="dot pulse-orange"></div>
           </div>
         </div>
-
-        <!-- الهدف -->
         <div class="col-lg-5 position-relative z-2 mt-5 mt-lg-0">
           <div class="vision-box glass-effect p-5 shadow-lg border-left-custom translate-up">
 
@@ -190,38 +188,36 @@
         </div>
 
       </div>
-
     </div>
-
   </section>
 
-<section class="imdad-cta-creative py-100">
-  <div class="blob-bg"></div>
-  
-  <div class="container">
-    <div class="cta-wrapper-v3">
-      
-      <div class="cta-text-side">
-         
-        <h2 class="cta-title-v3">
-          ابدأ أعمالك <span class="accent-text">معنا</span>
-        </h2>
-        <p class="cta-p-v3">
-          نسعى دائمًا لبناء علاقات طويلة الأمد قائمة على الثقة والنجاح المشترك.
-        </p>
-      </div>
+  <section class="imdad-cta-creative py-100">
+    <div class="blob-bg"></div>
 
-      <div class="cta-action-side">
-        <div class="btn-stack">
-          <button class="cta-btn-primary">
-            تواصل معنا الآن
-            <div class="btn-glow"></div>
-          </button>
-          
+    <div class="container">
+      <div class="cta-wrapper-v3">
+
+        <div class="cta-text-side">
+          <h2 class="cta-title-v3">
+            {{ 'ABOUT_PAGE.CTA_TITLE' | translate }}
+            <span class="accent-text">{{ 'ABOUT_PAGE.CTA_ACCENT' | translate }}</span>
+          </h2>
+          <p class="cta-p-v3">
+            {{ 'ABOUT_PAGE.CTA_TEXT' | translate }}
+          </p>
         </div>
-      </div>
 
+        <div class="cta-action-side">
+          <div class="btn-stack">
+            <a routerLink="/contact" class="cta-btn-primary">
+              {{ 'ABOUT_PAGE.CTA_BTN' | translate }}
+              <div class="btn-glow"></div>
+            </a>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
 </section>

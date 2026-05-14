@@ -9,8 +9,6 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './import-egypt.css',
 })
 export class ImportEgypt implements AfterViewInit {
-
-  // 1. Import Services
   importServices = [
     { title: 'IMPORT_PAGE.SERVICES.S1_TITLE', icon: 'fas fa-search-location', desc: 'IMPORT_PAGE.SERVICES.S1_DESC' },
     { title: 'IMPORT_PAGE.SERVICES.S2_TITLE', icon: 'fas fa-handshake',       desc: 'IMPORT_PAGE.SERVICES.S2_DESC' },
@@ -19,8 +17,6 @@ export class ImportEgypt implements AfterViewInit {
     { title: 'IMPORT_PAGE.SERVICES.S5_TITLE', icon: 'fas fa-file-contract',   desc: 'IMPORT_PAGE.SERVICES.S5_DESC' },
     { title: 'IMPORT_PAGE.SERVICES.S6_TITLE', icon: 'fas fa-truck-loading',   desc: 'IMPORT_PAGE.SERVICES.S6_DESC' },
   ];
-
-  // 2. Work Steps
   workSteps = [
     'IMPORT_PAGE.STEPS.STEP1',
     'IMPORT_PAGE.STEPS.STEP2',
@@ -30,7 +26,6 @@ export class ImportEgypt implements AfterViewInit {
     'IMPORT_PAGE.STEPS.STEP6',
   ];
 
-  // 3. Product Catalog
   productCatalog = [
     {
       name: 'IMPORT_PAGE.CATALOG.CAT1_NAME', icon: '🚗', image: 'assets/images/كككك.jpg',
@@ -110,7 +105,6 @@ export class ImportEgypt implements AfterViewInit {
     },
   ];
 
-  // 4. FAQs
   faqs = [
     { q: 'IMPORT_PAGE.FAQS.Q1', a: 'IMPORT_PAGE.FAQS.A1', open: false },
     { q: 'IMPORT_PAGE.FAQS.Q2', a: 'IMPORT_PAGE.FAQS.A2', open: false },

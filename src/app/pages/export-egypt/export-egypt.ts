@@ -9,8 +9,6 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './export-egypt.css',
 })
 export class ExportEgypt {
-
-  // 1. Export Services
   exportServices = [
     { title: 'EXPORT_PAGE.SERVICES.S1_TITLE', desc: 'EXPORT_PAGE.SERVICES.S1_DESC', icon: 'fas fa-handshake' },
     { title: 'EXPORT_PAGE.SERVICES.S2_TITLE', desc: 'EXPORT_PAGE.SERVICES.S2_DESC', icon: 'fas fa-file-invoice' },
@@ -19,8 +17,6 @@ export class ExportEgypt {
     { title: 'EXPORT_PAGE.SERVICES.S5_TITLE', desc: 'EXPORT_PAGE.SERVICES.S5_DESC', icon: 'fas fa-clipboard-check' },
     { title: 'EXPORT_PAGE.SERVICES.S6_TITLE', desc: 'EXPORT_PAGE.SERVICES.S6_DESC', icon: 'fas fa-route' },
   ];
-
-  // 2. Export Steps
   exportSteps = [
     'EXPORT_PAGE.STEPS.STEP1',
     'EXPORT_PAGE.STEPS.STEP2',
@@ -29,8 +25,6 @@ export class ExportEgypt {
     'EXPORT_PAGE.STEPS.STEP5',
     'EXPORT_PAGE.STEPS.STEP6',
   ];
-
-  // 3. Export Catalog
   exportCatalog = [
     {
       name: 'EXPORT_PAGE.CATALOG.CAT1_NAME',

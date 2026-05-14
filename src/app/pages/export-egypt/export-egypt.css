@@ -3,8 +3,6 @@
     --imdad-gold: #d4af37;
     --imdad-orange: #FF8C00;
 }
-
-/* ===== HERO ===== */
 .custom-hero-bg {
     position: relative;
     height: 450px;
@@ -55,14 +53,12 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
     line-height: 1.7;
 }
 
-/* ===== PAGE WRAPPER ===== */
 .imdad-import-page {
     padding: 0 !important;
     margin: 0 !important;
     overflow-x: hidden;
 }
 
-/* ===== SERVICES ===== */
 .sec-services-creative {
     position: relative;
     overflow: hidden;
@@ -193,7 +189,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
     }
 }
 
-/* ===== IMAGE FRAME ===== */
 .creative-img-frame {
     position: relative;
     padding: 15px;
@@ -219,8 +214,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
     z-index: 1;
     opacity: 0.2;
 }
-
-/* ===== STEPS ===== */
 .modern-steps-list {
     padding-right: 10px;
     overflow: visible;
@@ -311,7 +304,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
     }
 }
 
-/* ===== CATALOG / PRODUCTS ===== */
 .imdad-catalog-creative {
     padding: 30px 0;
     margin: 20px 0;
@@ -426,8 +418,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
         width: 100%;
     }
 }
-
-/* ===== FEATURE CARDS ===== */
 .m-feature-card {
     background: #ffffff;
     padding: 25px;
@@ -478,8 +468,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
         box-shadow: 0 15px 30px rgba(0, 51, 102, 0.08);
     }
 }
-
-/* ===== FAQ ===== */
 .sec-faq-minimal {
     background-color: #f1f1f1;
     padding: 80px 0;
@@ -571,7 +559,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
     text-align: justify;
 }
 
-/* ===== CTA ===== */
 .imdad-cta-creative {
     position: relative;
     background: #ffffff;
@@ -686,7 +673,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
     opacity: 0.8;
 }
 
-/* ===== ANIMATIONS ===== */
 @keyframes pulse-orange {
     0% {
         transform: scale(0.95);
@@ -701,8 +687,6 @@ background: url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=
         box-shadow: 0 0 0 0 rgba(255, 140, 0, 0);
     }
 }
-
-/* ===== RESPONSIVE ===== */
 @media (max-width: 1199px) {
     .faq-grid-container {
         gap: 0 50px;

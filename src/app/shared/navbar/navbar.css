@@ -36,8 +36,7 @@
     
 }
 
-/* Lang Dock */
-.lang-glass-dock {
+ .lang-glass-dock {
      display: flex;
     flex-wrap: wrap;
     gap: 6px;
@@ -77,8 +76,7 @@
     transform: translateY(-2px);
 }
 
-/* Tablet */
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
     .navbar-collapse {
         padding: 15px 0;
         border-top: 1px solid #eee;
@@ -104,8 +102,7 @@
     }
 }
 
-/* Mobile */
-@media (max-width: 576px) {
+ @media (max-width: 576px) {
     .navbar-brand img {
         height: 45px;
     }

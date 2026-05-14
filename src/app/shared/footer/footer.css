@@ -127,8 +127,7 @@
   line-height: 1;
 }
 
-/* Tablet */
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
   .footer-links-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -148,8 +147,7 @@
   }
 }
 
-/* Mobile */
-@media (max-width: 576px) {
+ @media (max-width: 576px) {
   .footer-links-grid {
     grid-template-columns: 1fr;
     gap: 10px;
